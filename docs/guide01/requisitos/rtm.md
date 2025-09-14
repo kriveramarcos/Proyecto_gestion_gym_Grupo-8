@@ -1,13 +1,74 @@
 # Especificación de requisitos de software
 
+A continuación se transforman los requisitos mandatorios a especificaciones técnicas (endpoints, entidades y pseudocódigo).
+
 ## Requisitos funcionales
-Los requisitos funcionales se expresan en lenguaje técnico a partir de los requisitos funcionales mandatorios que se han identificado en la categorización de requisitos de usuario.
-Ello implica el desarrollo de los siguientes puntos:
-- Puede escribirse en pseudocódigo incluyendo anotaciones de fórmulas de cálculo matemático según sea el caso. Este escenario es factible cuando el requisito ha sido claramente definido y validado
-  por el usuario/cliente.
-- Formato de interfaz de usuario y GUI como parte de la capa de presentación (Front End) del aplicativo de software: Incluye la interfaz de usuario para el sistema como propuesta inicial a las necesidades
-  del cliente. Deberá incluirlo en el Anexo “A”. Este escenario es factible cuando los requisitos no se encuentran definidos desde la perspectiva del usuario o existe dificultad para su obtención y entendimiento.
-  Puede utilizar cualquier herramienta mockup libre para diseñar sus interfaces: https://careerfoundry.com/en/blog/ux-design/free-wireframing-tools/
+
+## RF-001 Autenticación y Gestión de Usuarios
+
+El sistema debe permitir la autenticación de usuarios a partir de los datos almacenados en archivos planos.
+
+### Entradas:
+- Usuario ingresado en el campo de texto.
+- Contraseña ingresada en el campo de texto.
+
+### Salidas:
+- **Acceso correcto**: Mensaje de acceso correcto y apertura de la interfaz correspondiente al rol.
+- **Error**: Mensaje de error si las credenciales no son válidas.
+
+### Precondiciones:
+- El archivo de usuarios debe existir y contener registros válidos con los campos: `usuario`, `contraseña`, y `rol` (ADMIN, TRAINER, CLIENT).
+- El usuario debe estar previamente registrado en dicho archivo.
+
+### Postcondiciones:
+- El sistema identifica el rol del usuario y habilita las funciones correspondientes.
+- Si la autenticación falla, el acceso es denegado.
+
+### Restricciones técnicas:
+- No se emplea base de datos ni servicios externos de autenticación.
+- Contraseñas almacenadas en texto plano.
+- Validación únicamente mediante lectura del archivo.
+
+---
+
+## RF-002 Gestión de Socios
+
+### Entidad Socio:
+- `id`, `nombre`, `dni`, `email`, `telefono`, `fecha_nacimiento`, `notas_salud`, `foto`, `estado_membresia`.
+
+### Operaciones:
+- CRUD: Crear, Leer, Actualizar, Eliminar.
+- Búsqueda por `nombre` o `DNI`.
+- Paginación y filtros.
+
+---
+
+## RF-003 Membresías y Cobros
+
+### Entidades:
+- **Plan:**
+  - `id`, `nombre`, `duracion_dias`, `precio`.
+  
+- **Pago:**
+  - `id`, `socio_id`, `plan_id`, `fecha_pago`, `monto`, `metodo_pago`, `estado`.
+
+### Regla:
+- Al registrar un pago, se debe actualizar la `fecha_vencimiento` del socio.
+
+### Pseudocódigo (registrar pago):
+
+python
+function registrarPago(socioId, planId, fechaPago, monto):
+    plan = obtenerPlan(planId)
+    socio = obtenerSocio(socioId)
+    pago = crearPago(socioId, planId, fechaPago, monto)
+    if socio.fecha_vencimiento == null or socio.fecha_vencimiento < fechaPago:
+        socio.fecha_vencimiento = fechaPago + plan.duracion_dias
+    else:
+        socio.fecha_vencimiento = socio.fecha_vencimiento + plan.duracion_dias
+    guardarSocio(socio)
+    return pago
+
   
 ## Requisitos no funcionales
 - Portabilidad del software
