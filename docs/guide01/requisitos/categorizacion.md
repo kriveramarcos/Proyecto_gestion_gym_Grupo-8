@@ -1,4 +1,4 @@
-# 📝 Categorización Lógica de Requisitos (Organización de los requisitos de usuario)
+# Categorización Lógica de Requisitos (Organización de los requisitos de usuario)
 
 ## 1. Requisitos Funcionales Mandatorios (Sin ellos el sistema no cumple)
 
