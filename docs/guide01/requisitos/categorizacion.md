@@ -1,6 +1,6 @@
 # Categorización Lógica de Requisitos (Organización de los requisitos de usuario)
 
-## 1. Requisitos Funcionales Mandatorios (Sin ellos el sistema no cumple)
+## 1. Requisitos funcionales mandatorios (Sin ellos el sistema no cumple)
 
 Estos requisitos son esenciales para el funcionamiento básico del sistema. Sin ellos, el sistema no podrá operar correctamente.
 
@@ -19,7 +19,7 @@ Estos requisitos son esenciales para el funcionamiento básico del sistema. Sin 
 
 ---
 
-## 2. Requisitos de Mejora (Recomendados si hay tiempo)
+## 2. Requisitos de mejora (Recomendados si hay tiempo)
 
 Estos requisitos son mejoras que agregarían valor al sistema, pero no son imprescindibles para su funcionamiento básico.
 
@@ -36,7 +36,7 @@ Estos requisitos son mejoras que agregarían valor al sistema, pero no son impre
 
 ---
 
-## 3. Requisitos que No Generan Valor para Este Proyecto (Se Recomiendan Excluir)
+## 3. Requisitos que no generan valor para este proyecto (Se recomiendan excluir)
 
 Estos requisitos no son relevantes para la fase inicial del proyecto y se recomienda no implementarlos en esta etapa.
 
