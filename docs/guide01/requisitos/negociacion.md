@@ -2,51 +2,29 @@
 
 ## 1. Conflictos/Ambigüedades detectadas y acuerdos propuestos
 
-### 1.1 Política de penalización por no asistir
+## Negociación y Discusión de Requisitos
 
-**Conflicto:**  
-- **Administrador:** Quiere penalizar a los usuarios que no asistan a clases sin previo aviso.  
-- **Clientes:** Temen cargos o sanciones severas.
+### Conflictos/ambigüedades detectadas y acuerdos propuestos:
 
-**Acuerdo:**  
-- La regla será **configurable** para que el administrador pueda ajustarla según sus necesidades.
-- **Regla por defecto:**  
-  - Aviso al usuario y bloqueo de reservas por **1 día** después de **2 no-shows sin aviso**.
+#### Política de penalización por no asistir:
+- **Conflicto**: El administrador quiere penalizar a los usuarios por no asistir, mientras que los clientes temen ser cobrados sin previo aviso.
+- **Acuerdo**: La regla será configurable, y el comportamiento por defecto será:
+  - **Aviso** + bloqueo de reservas por 1 día después de **2 no-shows sin aviso**.
 
----
+#### Acceso a datos de salud:
+- **Ambigüedad** sobre qué detalle se debe almacenar y quién puede ver esos datos.
+- **Acuerdo**: Solo se almacenarán los datos relevantes (como alergias y restricciones), y estos campos serán **cifrados**.
+  - La visibilidad de estos datos estará **limitada al administrador y al entrenador asignado**.
 
-### 1.2 Acceso a datos de salud
+#### Automatización de cobros:
+- **Conflicto**: Existe un debate entre la comodidad de automatizar el proceso y la complejidad legal que podría generar.
+- **Acuerdo**: La implementación será por fases:
+  - **Fase 1**: Pagos manuales + recordatorios.
+  - **Fase 2**: Integración automática.
 
-**Ambigüedad:**  
-- **Detalle y visibilidad de la información de salud:** No está claro qué tan detallada debe ser la información y quién debe poder acceder a ella.
-
-**Acuerdo:**  
-- **Datos relevantes** (alergias, restricciones médicas, etc.) serán almacenados y **cifrados** para asegurar la privacidad.
-- La **visibilidad** será limitada a:
-  - **Administrador**: Acceso total a los datos.
-  - **Entrenador asignado**: Acceso solo a la información relevante para su función.
-
----
-
-### 1.3 Automatización de cobros
-
-**Conflicto:**  
-- **Comodidad:** Los usuarios y el administrador prefieren la automatización para facilitar el proceso de pago.  
-- **Complejidad Legal:** Existen dudas sobre cómo manejar las implicaciones legales de la automatización de cobros.
-
-**Acuerdo:**  
-- **Fase 1**: Los pagos serán **manuales** inicialmente, con **recordatorios** automáticos de pagos.
-- **Fase 2**: Se integrará una **automatización de cobros** una vez se resuelvan las implicaciones legales.
-
----
-
-### 1.4 Autonomía de entrenadores
-
-**Pregunta:**  
-- **¿Pueden los entrenadores crear nuevas clases?**
-
-**Acuerdo:**  
-- Los entrenadores **pueden proponer y solicitar nuevas clases**, pero la **aprobación** y la **creación definitiva** de las clases será responsabilidad del administrador.
-- El administrador puede **delegar permisos** para que los entrenadores tengan la capacidad de crear clases directamente si lo considera adecuado.
+#### Autonomía de entrenadores:
+- **Pregunta**: ¿Pueden los entrenadores crear clases directamente?
+- **Acuerdo**: Los entrenadores pueden **proponer** o **solicitar clases**.
+  - El administrador será el encargado de **aprobar o delegar permisos** para crear las clases.
 
 
