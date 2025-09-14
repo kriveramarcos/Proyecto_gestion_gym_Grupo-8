@@ -128,10 +128,3 @@ function reservarPlaza(socioId, claseId):
 - Integraciones de pago en **fase 2**.
 
 
-
-# Tips para mayor claridad
-## Propósito
-Definir los requisitos técnicos mínimos (RTM) del proyecto de software.
-
-## Qué se espera
-- Que sea el imput para el desglose de tareas de la planificación del proyecto, para su posterior diseño e implementación.
