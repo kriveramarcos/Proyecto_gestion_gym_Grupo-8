@@ -1,11 +1,60 @@
 # Requisitos de usuario
-Resumen de los requisitos principales (orientado al admin):
-Registro y autenticación de usuarios: Poder crear cuentas de administrador, entrenadores y usuario común (para visualizacion); iniciar sesión seguro.
-Gestión de socios: Registrar y editar ficha de cada socio: datos personales, contacto, notas de salud y estado de membresía.
-Gestión de membresías y cobros: Crear planes (mensual, trimestral...), registrar pagos y actualizar fecha de vencimiento.
-Calendario y horarios de clases: Crear horarios, asignar instructores, definir cupos y gestionar lista de espera.
-Reservas y control de asistencia: Permitir reservar/cancelar plazas, registrar check-in y manejar listas de espera.
-Reportes y métricas: Ver ingresos, asistencia y socios próximos a vencer; exportar reportes.
-Roles y permisos: Definir quién puede ver/editar cada cosa (admin, entrenador, cliente).
+# 📝 Resumen de Requisitos Principales (Orientado al Admin)
+
+## 1. Registro y Autenticación de Usuarios
+
+- Crear cuentas para:
+  - Administradores
+  - Entrenadores
+  - Usuarios comunes (solo visualización)
+- Iniciar sesión de forma segura
+
+## 2. Gestión de Socios
+
+- Registrar y editar la ficha de cada socio:
+  - Datos personales
+  - Información de contacto
+  - Notas de salud
+  - Estado de membresía
+
+## 3. Gestión de Membresías y Cobros
+
+- Crear planes de membresía:
+  - Mensual
+  - Trimestral
+  - Etc.
+- Registrar pagos
+- Actualizar fecha de vencimiento automáticamente
+
+## 4. Calendario y Horarios de Clases
+
+- Crear y gestionar horarios de clases
+- Asignar instructores a cada clase
+- Definir cupos máximos
+- Gestionar lista de espera
+
+## 5. Reservas y Control de Asistencia
+
+- Permitir a los usuarios:
+  - Reservar plaza
+  - Cancelar reservas
+- Registrar el **check-in**
+- Manejar automáticamente las listas de espera
+
+## 6. Reportes y Métricas
+
+- Visualizar:
+  - Ingresos generados
+  - Asistencia a clases
+  - Socios próximos a vencer su membresía
+- Exportar reportes (PDF, Excel, etc.)
+
+## 7. Roles y Permisos
+
+- Definir qué puede ver/editar cada tipo de usuario:
+  - Administrador
+  - Entrenador
+  - Cliente
+
 
 
