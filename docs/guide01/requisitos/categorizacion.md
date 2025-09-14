@@ -1,17 +1,40 @@
 # Categorización lógica de requisitos (Organización de los requisitos de usuario)
 
-## Requisitos funcionales mandatorios
-Representa los requisitos que debe soportar el software es decir que el software sin ellos no funciona.
+## Requisitos Funcionales Mandatorios (Sin ellos el sistema no cumple)
 
-## Requisitos funcionales de mejora
-Representan una mejora a las funcionalidades mandatorias del software.
+1. **Registro y autenticación de usuarios**
+2. **Gestión de socios**
+   - CRUD (Crear, Leer, Actualizar, Eliminar) de fichas de socios
+3. **Gestión de membresías y registro de pagos**
+4. **Calendario y gestión de clases**
+   - Crear, asignar instructores, y definir cupos
+5. **Reservas y control de asistencias**
+   - Permitir reservar, cancelar, y registrar check-in
+6. **Reportes básicos**
+   - Ingresos, asistencia, vencimientos
+7. **Roles y permisos**
+   - Definir visibilidad y edición según tipo de usuario
 
-## Requisitos funcionales que no generan valor a la organización
-Representan los requisitos que no se corresponden con ningún objetivo del software menos de la organización.
+---
 
-# Tips para mayor claridad:
-## Propósito
-Categorizar los requisitos de usuario.
+## Requisitos de Mejora (Recomendados si hay tiempo)
 
-## Qué se espera
-Tener los requisitos de usuario debidamente categorizados.
+1. **Notificaciones automáticas**
+   - Email/SMS/push para alertas importantes
+2. **Integración con pasarelas de pago**
+   - Yape, Plin, y APIs bancarias
+3. **Módulo de seguimiento con gráficas**
+   - Medición de peso, medidas, etc.
+4. **Gamificación**
+   - Puntos, retos y recompensas para fidelización
+5. **Exportar reportes a CSV/PDF**
+   - Facilitar la exportación de datos
+
+---
+
+## Requisitos que No Generan Valor para Este Proyecto (Se Recomendía Excluir)
+
+1. **Marketplace avanzado para terceros**
+2. **E-commerce complejo con catálogo amplio**
+3. **Integraciones con ERPs de gran empresa**
+   - No relevante para el proyecto en su etapa actual
