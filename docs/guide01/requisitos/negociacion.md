@@ -49,6 +49,4 @@
 - Los entrenadores **pueden proponer y solicitar nuevas clases**, pero la **aprobación** y la **creación definitiva** de las clases será responsabilidad del administrador.
 - El administrador puede **delegar permisos** para que los entrenadores tengan la capacidad de crear clases directamente si lo considera adecuado.
 
----
 
-Este formato ayuda a tener una visión clara de cómo se resolvieron las discrepancias y cómo avanzará el proyecto. ¿Te gustaría que añada más detalles o alguna sección adicional?
