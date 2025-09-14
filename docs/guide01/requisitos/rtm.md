@@ -100,12 +100,33 @@ function reservarPlaza(socioId, claseId):
 ```
   
 ## Requisitos no funcionales
-- Portabilidad del software
-- Facilidad de mantenimiento: Que implica el grado de conocimiento de la herramienta de desarrollo del software, así como de la disponibilidad de personal técnico apropiado entre otros.
-- Usabilidad del software
-- Velocidad de procesamiento de datos
-- Restricciones técnicas del software: Por ejemplo, restricciones de diseño debido al sistema operativo utilizado, el entorno de la plataforma, problemas de compatibilidad con alguna aplicación interna o
-  externa a la organización, estándar para alguna aplicación determinada, entre otros.
+
+### Portabilidad:
+- La aplicación debe ejecutarse en cualquier sistema operativo que disponga de **Java Runtime Environment (JRE 21 o superior)**. 
+- No requiere instalación de base de datos ni servicios externos.
+
+### Facilidad de mantenimiento:
+- Repositorio **Git**.
+- **README** con documentación.
+- Código organizado en **paquetes** (o similar según conocimiento del equipo).
+
+### Usabilidad:
+- Interfaz **simple**.
+- Aprendizaje de uso para el administrador en menos de **30 minutos**.
+
+### Velocidad de procesamiento:
+- Listados paginados deben cargar en menos de **500 ms**.
+- El proceso de check-in debe ser inferior a **200 ms** en condiciones normales.
+
+### Seguridad:
+- Las credenciales se almacenan en archivos (se recomienda considerar mejoras futuras).
+- Archivos de fidelización restringidos.
+- Autenticación en base a **roles**.
+
+### Restricciones técnicas:
+- Alojamiento en **VPS** o **PaaS**.
+- Integraciones de pago en **fase 2**.
+
 
 
 # Tips para mayor claridad
