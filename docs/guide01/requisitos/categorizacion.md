@@ -1,40 +1,49 @@
-# Categorización lógica de requisitos (Organización de los requisitos de usuario)
+# 📝 Categorización Lógica de Requisitos (Organización de los requisitos de usuario)
 
-## Requisitos Funcionales Mandatorios (Sin ellos el sistema no cumple)
+## 1. Requisitos Funcionales Mandatorios (Sin ellos el sistema no cumple)
 
-1. **Registro y autenticación de usuarios**
-2. **Gestión de socios**
-   - CRUD (Crear, Leer, Actualizar, Eliminar) de fichas de socios
-3. **Gestión de membresías y registro de pagos**
-4. **Calendario y gestión de clases**
-   - Crear, asignar instructores, y definir cupos
-5. **Reservas y control de asistencias**
-   - Permitir reservar, cancelar, y registrar check-in
-6. **Reportes básicos**
-   - Ingresos, asistencia, vencimientos
-7. **Roles y permisos**
-   - Definir visibilidad y edición según tipo de usuario
+Estos requisitos son esenciales para el funcionamiento básico del sistema. Sin ellos, el sistema no podrá operar correctamente.
 
----
-
-## Requisitos de Mejora (Recomendados si hay tiempo)
-
-1. **Notificaciones automáticas**
-   - Email/SMS/push para alertas importantes
-2. **Integración con pasarelas de pago**
-   - Yape, Plin, y APIs bancarias
-3. **Módulo de seguimiento con gráficas**
-   - Medición de peso, medidas, etc.
-4. **Gamificación**
-   - Puntos, retos y recompensas para fidelización
-5. **Exportar reportes a CSV/PDF**
-   - Facilitar la exportación de datos
+- **Registro y autenticación de usuarios**
+- **Gestión de socios**  
+  - CRUD de fichas de socios (Crear, Leer, Actualizar, Eliminar)
+- **Gestión de membresías y registro de pagos**
+- **Calendario y gestión de clases**
+  - Crear horarios de clases, asignar instructores y definir cupos
+- **Reservas y control de asistencias**
+  - Reservar, cancelar, y registrar check-ins
+- **Reportes básicos**
+  - Ingresos, asistencia, y vencimientos de socios
+- **Roles y permisos**
+  - Definir qué acciones pueden realizar los usuarios según su rol (administrador, entrenador, cliente)
 
 ---
 
-## Requisitos que No Generan Valor para Este Proyecto (Se Recomendía Excluir)
+## 2. Requisitos de Mejora (Recomendados si hay tiempo)
 
-1. **Marketplace avanzado para terceros**
-2. **E-commerce complejo con catálogo amplio**
-3. **Integraciones con ERPs de gran empresa**
-   - No relevante para el proyecto en su etapa actual
+Estos requisitos son mejoras que agregarían valor al sistema, pero no son imprescindibles para su funcionamiento básico.
+
+- **Notificaciones automáticas**
+  - Email/SMS/push para alertas de eventos importantes (pago, reservas, vencimientos)
+- **Integración con pasarelas de pago**
+  - Yape, Plin, y APIs bancarias para facilitar los pagos
+- **Módulo de seguimiento con gráficas**
+  - Medición de peso, medidas y progreso de los socios
+- **Gamificación**
+  - Puntos, retos y recompensas para fomentar la fidelización de los usuarios
+- **Exportación de reportes a CSV/PDF**
+  - Facilitar la exportación de reportes para análisis externo
+
+---
+
+## 3. Requisitos que No Generan Valor para Este Proyecto (Se Recomiendan Excluir)
+
+Estos requisitos no son relevantes para la fase inicial del proyecto y se recomienda no implementarlos en esta etapa.
+
+- **Marketplace avanzado para terceros**
+  - No es necesario en el contexto actual del proyecto
+- **E-commerce complejo con catálogo amplio**
+  - No relevante en este momento, ya que no hay venta de productos masivos
+- **Integraciones con ERPs de gran empresa**
+  - No relevante ahora; no hay necesidad de integración con sistemas de gestión empresariales a gran escala
+
