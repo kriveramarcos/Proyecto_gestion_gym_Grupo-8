@@ -4,6 +4,7 @@ A continuación se transforman los requisitos mandatorios a especificaciones té
 
 ## Requisitos funcionales
 
+
 ## RF-001 Autenticación y Gestión de Usuarios
 
 El sistema debe permitir la autenticación de usuarios a partir de los datos almacenados en archivos planos.
@@ -57,17 +58,21 @@ El sistema debe permitir la autenticación de usuarios a partir de los datos alm
 
 ### Pseudocódigo (registrar pago):
 
-python
+```python
 function registrarPago(socioId, planId, fechaPago, monto):
     plan = obtenerPlan(planId)
     socio = obtenerSocio(socioId)
     pago = crearPago(socioId, planId, fechaPago, monto)
+    
+    # Si no hay fecha de vencimiento o la fecha actual es mayor que la fecha de vencimiento
     if socio.fecha_vencimiento == null or socio.fecha_vencimiento < fechaPago:
         socio.fecha_vencimiento = fechaPago + plan.duracion_dias
     else:
         socio.fecha_vencimiento = socio.fecha_vencimiento + plan.duracion_dias
+    
     guardarSocio(socio)
     return pago
+
 
   
 ## Requisitos no funcionales
