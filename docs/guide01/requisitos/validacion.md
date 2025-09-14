@@ -1,16 +1,13 @@
-# Validación de requisitos de software
-Esta actividad se realiza al final del análisis de requisitos. Resultado de la negociación y discusión de los requisitos con el cliente. Los requisitos se pueden verificar respecto a las siguientes consideraciones:
+# Validación de Requisitos
 
-- Si el requisito del cliente contrapone las buenas prácticas de la organización.
-- Si son válidos según la funcionalidad, la contribución a los objetivos de la organización y el dominio del software.
-- Si existen algunas restricciones por tiempo, costo, experiencia en desarrollo.
-- Si el equipo de desarrollo interpretó correctamente los requisitos.
+## Plan de Validación y Criterios de Aceptación
 
-# Tips para mayor claridad
-
-## Propósito
-Tener requisitos técnicos debidamente validados antes de su implementación.
-
-## Qué se espera
-Elaborar una buena planificación del proyecto a fin de mitigar altos costos de esfuerzo durante la implementación.
-  
+- **Revisión con el cliente (admin) en reunión grabada:** Confirmar reglas críticas (pagos, penalizaciones, datos de salud).
+- **Prueba de usabilidad con prototipos Figma:**  
+  - Tareas: Crear socio, reservar clase.
+- **Checklist de aceptación por requisito:**  
+  - Ver Anexo A.
+- **Pruebas funcionales básicas:**  
+  - Crear socio, ver plan, reservar plaza, generar reporte.
+- **Revisión de seguridad y privacidad:**  
+  - Acceso, cifrado de campos sensibles.
