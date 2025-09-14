@@ -1,9 +1,5 @@
 # Negociación y Discusión de Requisitos
 
-## Conflictos/Ambigüedades detectadas y acuerdos propuestos
-
-## Negociación y Discusión de Requisitos
-
 ### Conflictos/ambigüedades detectadas y acuerdos propuestos:
 
 #### Política de penalización por no asistir:
