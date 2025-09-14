@@ -1,5 +1,5 @@
 # Requisitos de usuario
-# 📝 Resumen de Requisitos Principales (Orientado al Admin)
+# Resumen de Requisitos Principales (Orientado al Admin)
 
 ## 1. Registro y Autenticación de Usuarios
 
