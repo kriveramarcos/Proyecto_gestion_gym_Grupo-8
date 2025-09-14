@@ -1,6 +1,6 @@
-## Requisitos de Usuario
+# Requisitos de Usuario
 
-### Resumen de los requisitos principales (orientado al admin):
+## Resumen de los requisitos principales (orientado al admin):
 
 - **Registro y autenticación de usuarios**: Poder crear cuentas de administrador, entrenadores y usuario común (para visualización); iniciar sesión seguro.
 - **Gestión de socios**: Registrar y editar ficha de cada socio: datos personales, contacto, notas de salud y estado de membresía.
