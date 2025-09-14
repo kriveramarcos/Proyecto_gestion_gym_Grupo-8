@@ -1,8 +1,8 @@
 # Negociación y Discusión de Requisitos
 
-## 1. Conflictos/Ambigüedades Detectadas y Acuerdos Propuestos
+## 1. Conflictos/Ambigüedades detectadas y acuerdos propuestos
 
-### 1.1 Política de Penalización por No Asistir
+### 1.1 Política de penalización por no asistir
 
 **Conflicto:**  
 - **Administrador:** Quiere penalizar a los usuarios que no asistan a clases sin previo aviso.  
@@ -15,7 +15,7 @@
 
 ---
 
-### 1.2 Acceso a Datos de Salud
+### 1.2 Acceso a datos de salud
 
 **Ambigüedad:**  
 - **Detalle y visibilidad de la información de salud:** No está claro qué tan detallada debe ser la información y quién debe poder acceder a ella.
@@ -28,7 +28,7 @@
 
 ---
 
-### 1.3 Automatización de Cobros
+### 1.3 Automatización de cobros
 
 **Conflicto:**  
 - **Comodidad:** Los usuarios y el administrador prefieren la automatización para facilitar el proceso de pago.  
@@ -40,7 +40,7 @@
 
 ---
 
-### 1.4 Autonomía de Entrenadores
+### 1.4 Autonomía de entrenadores
 
 **Pregunta:**  
 - **¿Pueden los entrenadores crear nuevas clases?**
