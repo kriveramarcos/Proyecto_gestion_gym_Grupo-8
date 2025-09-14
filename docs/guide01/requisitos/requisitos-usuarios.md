@@ -1,21 +1,11 @@
 # Requisitos de usuario
-Los requisitos del usuario se expresan en lenguaje natural. Los cuales han sido obtenidos mediante las técnicas de obtención de requisitos descritas en el Anexo A - “Técnicas de obtención de requisitos de software”. Puede incluir:
-- Ámbito funcional que deberá soportar el software por cada parte interesada. Por ejemplo, el área del cliente donde se encuentran los procesos que se necesitan automatizar:
-Compras, Ventas, Atención al cliente, Admisión de estudiantes, Inventario, etc.
-- La descripción del diseño de las funciones más importantes que se tiene previsto realice el sistema de información.
-
-## Anexo A: Técnicas de obtención de requisitos de software
-Documentar las técnicas que utilizaron para realizar la obtención de requisitos del software: Entrevistas, Encuestas, Cuestionarios, Análisis de tareas, Análisis del dominio, 
-Prototipos (a través del uso de wireframes), Observación, entre otras técnicas innovadoras que el ED haya podido realizar durante la etapa de recopilación de requisitos del software.
-
-# Tips para mayor claridad
-## Propósito
-Definir los requisitos de usuario (lenguaje natural del usuario).
-
-## Qué se espera
-- Tener claridad en la definición de los requisitos de usuario.
-
-## Técnicas de recopilación de requisitos
-Descritas en el Anexo A - “Técnicas de obtención de requisitos de software” de la presente guía.
+Resumen de los requisitos principales (orientado al admin):
+Registro y autenticación de usuarios: Poder crear cuentas de administrador, entrenadores y usuario común (para visualizacion); iniciar sesión seguro.
+Gestión de socios: Registrar y editar ficha de cada socio: datos personales, contacto, notas de salud y estado de membresía.
+Gestión de membresías y cobros: Crear planes (mensual, trimestral...), registrar pagos y actualizar fecha de vencimiento.
+Calendario y horarios de clases: Crear horarios, asignar instructores, definir cupos y gestionar lista de espera.
+Reservas y control de asistencia: Permitir reservar/cancelar plazas, registrar check-in y manejar listas de espera.
+Reportes y métricas: Ver ingresos, asistencia y socios próximos a vencer; exportar reportes.
+Roles y permisos: Definir quién puede ver/editar cada cosa (admin, entrenador, cliente).
 
 
