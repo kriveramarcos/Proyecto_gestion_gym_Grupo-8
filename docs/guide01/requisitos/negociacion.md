@@ -1,6 +1,6 @@
 # Negociación y Discusión de Requisitos
 
-## 1. Conflictos/Ambigüedades detectadas y acuerdos propuestos
+## Conflictos/Ambigüedades detectadas y acuerdos propuestos
 
 ## Negociación y Discusión de Requisitos
 
