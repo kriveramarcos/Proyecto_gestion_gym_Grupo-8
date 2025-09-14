@@ -72,8 +72,32 @@ function registrarPago(socioId, planId, fechaPago, monto):
     
     guardarSocio(socio)
     return pago
+```
+## RF-004 Calendario y Clases (por validar)
 
+### Entidad Clase:
+- `id`, `nombre`, `instructor_id`, `fecha_hora_inicio`, `duracion_min`, `cupo`, `sala`, `estado`.
 
+### Reserva:
+- `id`, `clase_id`, `socio_id`, `fecha_reserva`, `estado`.
+
+### Pseudocódigo (reservar plaza):
+
+```python
+function reservarPlaza(socioId, claseId):
+    clase = obtenerClase(claseId)
+    if clase.estado != "activa": 
+        return "Clase no activa"
+    
+    inscritos = contarReservasActivas(claseId)
+    
+    if inscritos >= clase.cupo:
+        agregarAListaEspera(socioId, claseId)
+        return "En lista de espera"
+    else:
+        crearReserva(socioId, claseId, ahora())
+        return "Reserva confirmada"
+```
   
 ## Requisitos no funcionales
 - Portabilidad del software
