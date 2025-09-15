@@ -9,21 +9,21 @@ A continuación se transforman los requisitos mandatorios a especificaciones té
 El sistema debe permitir la autenticación de usuarios a partir de los datos almacenados en archivos planos.
 
 - Entradas:
-  -Usuario ingresado en el campo de texto.
-  -Contraseña ingresada en el campo de texto.
+  - Usuario ingresado en el campo de texto.
+  - Contraseña ingresada en el campo de texto.
 - Salidas:
-  -Mensaje de acceso correcto y apertura de la interfaz correspondiente al rol
-  -Mensaje de error si las credenciales no son válidas.
+  - Mensaje de acceso correcto y apertura de la interfaz correspondiente al rol
+  - Mensaje de error si las credenciales no son válidas.
 - Precondiciones:
-  -El archivo de usuarios debe existir y contener registros válidos con los campos: usuario, contraseña y rol (ADMIN, TRAINER, CLIENT).
-  -El usuario debe estar previamente registrado en dicho archivo.
+  - El archivo de usuarios debe existir y contener registros válidos con los campos: usuario, contraseña y rol (ADMIN, TRAINER, CLIENT).
+  - El usuario debe estar previamente registrado en dicho archivo.
 - Postcondiciones:
-  -El sistema identifica el rol del usuario y habilita las funciones correspondientes.
-  -Si la autenticación falla, el acceso es denegado.
+  - El sistema identifica el rol del usuario y habilita las funciones correspondientes.
+  - Si la autenticación falla, el acceso es denegado.
 - Restricciones técnicas:
-  -No se emplea base de datos ni servicios externos de autenticación.
-  -Contraseñas almacenadas en texto plano.
-  -Validación únicamente mediante lectura del archivo.
+  - No se emplea base de datos ni servicios externos de autenticación.
+  - Contraseñas almacenadas en texto plano.
+  - Validación únicamente mediante lectura del archivo.
 
 ---
 
