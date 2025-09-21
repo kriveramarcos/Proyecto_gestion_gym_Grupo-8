@@ -11,9 +11,7 @@
 
 ---
 
-## Sección A — Para Administradores / Gerentes (objetivo: definir alcance funcional y prioridades)
-
-(Mostrar solo si seleccionaron “Administrador”)
+## Será para el Administrador (objetivo: definir alcance funcional y prioridades)
 
 - Datos Básicos
 
@@ -97,91 +95,7 @@
 
 ---
 
-## Sección B — Para Entrenadores / Instructores (objetivo: funciones de apoyo al trabajo del entrenador)
-
-(Mostrar solo si seleccionaron “Entrenador”)
-
-- **1. ¿Qué dispositivo usaría principalmente para trabajar con el sistema?**
-  - Móvil
-  - Tablet
-  - PC/Laptop
-- **2. ¿Qué funciones considera más útiles para su trabajo diario? (checkbox)**
-  - Agenda de clases y clientes
-  - Registro y seguimiento de rutinas
-  - Planes de entrenamiento personalizables
-  - Historias clínicas y restricciones médicas
-  - Comunicación con clientes (mensajes, recordatorios)
-  - Acceso a pagos / historial de membresía del cliente
-  - Control de asistencia de sus clases
-  - Informes de progreso (mediciones, peso, fotos)
-  - Otro (especifique)
-- **3. ¿Con qué frecuencia actualiza el progreso de sus clientes?**
-  - Después de cada sesión
-  - Semanalmente
-  - Mensualmente
-  - Raramente
-- **4. ¿Necesita generar o imprimir rutinas/planes para clientes?**
-  - Sí
-  - No
-- **5. ¿Qué grado de autonomía desea tener para crear/modificar clases y cupos?**
-  - Total
-  - Supervisado por admin
-  - Solo ver / no modificar
-- **6. Comentarios y sugerencias (texto largo).**
-
----
-
-## Sección C — Para Clientes / Socios (objetivo: UX y aceptación)
-
-(Mostrar solo si seleccionaron “Cliente”)
-
-- Perfil
-
-  - **1. ¿Con qué frecuencia asiste al gimnasio?**
-    - Diario
-    - 3–5 veces por semana
-    - 1–2 veces por semana
-    - Menos de una vez por semana
-  - **2. ¿Usa teléfono móvil para gestionar servicios (reservas, pagos) actualmente?**
-    - Sí
-    - No
-  - **3. Funciones que le gustaría que tenga la app/sistema (marque todos los que aplique): **
-    - Reservar clases / actividades
-    - Pagar membresías en línea
-    - Ver progreso físico (peso, medidas, tests)
-    - Chat con entrenador
-    - Ver horario de clases en tiempo real
-    - Notificaciones / recordatorios
-    - Auto check-in (QR / Bluetooth)
-    - Calificar clases / entrenadores
-    - Ver promociones / descuentos
-    - Otro (especifique)
-  - **4. ¿Le preocupa que el sistema almacene datos de salud (lesiones, medicación)?**
-    - Mucho
-    - Algo
-    - Poco
-    - Nada
-  - **5. ¿Preferiría usar una app móvil, una página web o ambos?**
-    - App móvil
-    - Web (sitio)
-    - Ambos
-  - **6. ¿Estaría dispuesto a pagar extra por funcionalidades premium (programa personalizado, seguimiento 1:1)?**
-    - Sí
-    - No
-    - Depende del precio
-  - **7. Comentario abierto — ¿qué le haría más probable usar el sistema? (texto largo)**
-
----
-
-## Sección D — Otro / Comentarios generales
-
-(Para quienes seleccionaron “Otro” en rol o mensajes generales)
-
-- **1. Describa brevemente su relación con el gimnasio y expectativas del sistema. (texto largo)**
-
----
-
-## Preguntas transversales (aplicar a todos, se pueden poner al final o antes del cierre)
+## Preguntas transversales
 
 - **En una escala del 1 al 5, ¿qué tan dispuesto está a usar un sistema nuevo que centralice la gestión del gimnasio?**
   - 1 (Nada) — 5 (Totalmente)
