@@ -6,7 +6,7 @@ Se define el ED, sus miembros y los roles en el equipo.
 - **Equipo de desarrollo**:
   - *Desarrollador A*: Garcia Avalos, Nicolas
   - *Desarrollador B*: Burga Montesinos, Jeanpiere Jesus
-- **Responsable de pruebas**: define y ejecuta los casos de prueba.
+- **Responsable de pruebas**: Bejar Mallma, Harian Aaron
 
 
 # Roles y Responsabilidades
@@ -17,4 +17,5 @@ Se define el ED, sus miembros y los roles en el equipo.
 | Analista / Líder Backend                | Kevin Rivera Marcos | Recopilar requisitos (encuestas/entrevistas), validar con el cliente, implementar backend (autenticación, CRUD socios, membresías, pagos, inventario, empleados, endpoints de reportes), documentación técnica y entrega. |
 | Diseñador Frontend / Modelador de Datos | Nicolas Garcia Avalos | Diseñar modelo de datos (ER), crear diseño técnico, implementar frontend (pantallas principales, responsive), integrar con API y apoyar pruebas de integración.                                                           |
 | QA / UX & Prototipos                    | Jeanpiere Burga Montesinos | Diseñar prototipos en Figma, ejecutar pruebas unitarias e integración, pruebas de usabilidad con el cliente, preparar manual corto y sesión de capacitación, gestionar ajustes de interfaz.                               |
+
 
