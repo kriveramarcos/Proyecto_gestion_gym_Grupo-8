@@ -4,94 +4,59 @@
 
 A continuación se transforman los requisitos mandatorios a especificaciones técnicas (endpoints, entidades y pseudocódigo).
 
-**RF-001 Autenticación y gestión de usuarios**
-
-El sistema debe permitir la autenticación de usuarios a partir de los datos almacenados en archivos planos.
-
-- Entradas:
-  - Usuario ingresado en el campo de texto.
-  - Contraseña ingresada en el campo de texto.
-- Salidas:
-  - Mensaje de acceso correcto y apertura de la interfaz correspondiente al rol
-  - Mensaje de error si las credenciales no son válidas.
-- Precondiciones:
-  - El archivo de usuarios debe existir y contener registros válidos con los campos: usuario, contraseña y rol (ADMIN, TRAINER, CLIENT).
-  - El usuario debe estar previamente registrado en dicho archivo.
-- Postcondiciones:
-  - El sistema identifica el rol del usuario y habilita las funciones correspondientes.
-  - Si la autenticación falla, el acceso es denegado.
-- Restricciones técnicas:
-  - No se emplea base de datos ni servicios externos de autenticación.
-  - Contraseñas almacenadas en texto plano.
-  - Validación únicamente mediante lectura del archivo.
+- **RF-001 El sistema debe permitir la autenticación del administrardor a partir de los datos almacenados en archivos planos.**
 
 ---
 
-**RF-002 Gestión de socios**
-
-Entidad Socio: id, nombre, dni, email, telefono, fecha_nacimiento, notas_salud, foto, estado_membresia.
-
-Operaciones: CRUD, búsqueda por nombre/DNI, paginación y filtros.
+- **RF-002 El sistema debe validar que el usuario y contraseña del administrador coincidan con un registro existente antes de permitir el acceso.**
 
 ---
 
-**RF-003 Membresías y cobros**
-
-Entidad Plan: id, nombre, duracion_dias, precio.
-
-Entidad Pago: id, socio_id, plan_id, fecha_pago, monto, metodo_pago, estado.
-
-Regla: al registrar pago, actualizar fecha_vencimiento del socio.
-
-Pseudocódigo (registrar pago):
-
-```
-function registrarPago(socioId, planId, fechaPago, monto):
-    plan = obtenerPlan(planId)
-    socio = obtenerSocio(socioId)
-    pago = crearPago(socioId, planId, fechaPago, monto)
-    if socio.fecha_vencimiento == null or socio.fecha_vencimiento < fechaPago:
-        socio.fecha_vencimiento = fechaPago + plan.duracion_dias
-    else:
-        socio.fecha_vencimiento = socio.fecha_vencimiento + plan.duracion_dias
-    guardarSocio(socio)
-    return pago
-```
+- **RF-003 El sistema debe permitir registrar, consultar, actualizar y eliminar socios, así como realizar búsquedas por DNI.**
 
 ---
 
-**RF-004 Calendario y clases (por validar)**
-
-Entidad Clase: id, nombre, instructor_id, fecha_hora_inicio, duracion_min, cupo, sala, estado.
-
-Reserva: id, clase_id, socio_id, fecha_reserva, estado.
-
-Pseudocódigo (reservar plaza):
-
-```
-function reservarPlaza(socioId, claseId):
-    clase = obtenerClase(claseId)
-    if clase.estado != "activa": return "Clase no activa"
-    inscritos = contarReservasActivas(claseId)
-    if inscritos >= clase.cupo:
-        agregarAListaEspera(socioId, claseId)
-        return "En lista de espera"
-    else:
-        crearReserva(socioId, claseId, ahora())
-        return "Reserva confirmada"
-```
+- **RF-004 El sistema debe permitir registrar, consultar, actualizar y eliminar planes de membresía, incluyendo datos importantes como su nombre, tipo y precio.**
 
 ---
 
-**RF-005 Check-in / asistencia (por validar)**
-
-Registrar asistencia mediante check-in manual. Guarda: reserva_id, hora_checkin, checked_by.
+- **RF-005 El sistema debe permitir asignar y eliminar restricciones de días y horarios de acceso asociados a cada membresía, de manera que se controle la entrada y salida de los socios según las condiciones definidas.**
 
 ---
 
-**RF-006 Reportes (por validar)**
+- **RF-006 El sistema debe permitir gestionar la asignación de una membresía a un socio**
 
-Reportes: ingresos por periodo, asistencia por clase, socios por plan, próximos vencimientos.Mostrar en tablas.
+---
+
+- **RF-007 El sistema debe permitir definir la fecha de inicio de la membresía asignada a un socio y calcular automáticamente la fecha de finalización en función de la duración del plan (mensual, bimestral o por días).**
+
+---
+
+- **RF-008 El sistema debe permitir cancelar o eliminar un pago asociado a la membresía de un socio.**
+
+---
+
+- **RF-009 El sistema debe permitir registrar, consultar, actualizar y eliminar el inventario de las maquinas del gimnasio, así como realizar búsquedas por numero de serie.**
+
+---
+
+- **RF-010 El sistema debe permitir modificar el estado de las máquinas registradas.**
+
+---
+
+- **RF-011 El sistema debe permitir mostrar los equipos por categoría (máquina, disco, mancuerna)**
+
+---
+
+- **RF-012 El sistema debe permitir registrar, consultar, actualizar y eliminar empleados del gimnasio, así como realizar búsquedas por id.**
+
+---
+
+- **RF-013 El sistema debe permitir gestionar la asistencia de los empleados mediante el registro, actualización y eliminación, especificando la hora de llegada y la hora de salida .**
+
+---
+
+- **RF-014 El sistema debe generar y mostrar el reporte de asistencia correspondiente al día en curso, indicando para cada empleado su hora de llegada, hora de salida**
 
 ---
 

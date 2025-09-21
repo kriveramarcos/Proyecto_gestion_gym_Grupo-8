@@ -19,8 +19,3 @@ Conflictos/ambigüedades detectadas y acuerdos propuestos:
   - Conflicto por comodidad vs. complejidad legal.
   - Acuerdo: fase 1 = pagos manuales + recordatorios;
   - Integración automática = fase 2.
-
-- **Autonomía de entrenadores:**
-  - ¿Pueden crear clases?
-  - Acuerdo: pueden proponer/solicitar clases;
-  - Admin aprueba o delega permisos.

@@ -4,13 +4,12 @@ Clasificación de los requisitos identificados:
 
 - **Requisitos funcionales mandatorios** (sin ellos el sistema no cumple):
 
-  - Registro y autenticación de usuarios.
+  - Autenticación.
   - Gestión de socios (CRUD de fichas).
-  - Gestión de membresías y registro de pagos.
-  - Calendario y gestión de clases (crear, asignar, cupos).
-  - Reservas y control de asistencias (reservar, cancelar, check-in).
+  - Gestión de membresías y pagos.
+  - Gestión de inventario de equipos (crear, asignar, cupos).
+  - Gestión de empleados y asistencia (reservar, cancelar, check-in).
   - Reportes básicos (ingresos, asistencia, vencimientos).
-  - Roles y permisos.
 
 - **Requisitos de mejora** (recomendados si hay tiempo):
 
