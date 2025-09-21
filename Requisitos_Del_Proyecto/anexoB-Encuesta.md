@@ -1,25 +1,15 @@
 # Anexo B — Encuesta (para Google Forms)
 
-## Sección 0 — Identificación del rol (pregunta obligatoria, ir a sección según respuesta)
-
-**1. ¿Cuál es su rol en el gimnasio? (Pregunta obligatoria — múltiple opción)**
-
-- Administrador / Gerente (ir a Sección A)
-- Entrenador / Instructor (ir a Sección B)
-- Cliente / Socio (ir a Sección C)
-- Otro (Especifique) — campo de texto (si elige “Otro”, ir a Sección D)
-
----
 
 ## Será para el Administrador (objetivo: definir alcance funcional y prioridades)
 
 - Datos Básicos
 
-  - **2. ¿Actualmente usa algún software para gestionar el gimnasio?**-
+  - **1. ¿Actualmente usa algún software para gestionar el gimnasio?**-
   - Sí — (campo corto) ¿Cuál?
   - No
 
-  - **3. Tamaño del gimnasio**
+  - **2. Tamaño del gimnasio**
 
   - 1–50 socios
   - 51–200 socios
@@ -28,7 +18,7 @@
 
 - Procesos actuales / Dolor
 
-  - **4. Indique qué procesos gestiona actualmente manualmente (marque todos los que apliquen): (checkbox)**
+  - **3. Indique qué procesos gestiona actualmente manualmente (marque todos los que apliquen): (checkbox)**
   - Inscripciones / registros de socios
   - Cobro de membresías / facturación
   - Control de asistencias / check-in
@@ -40,11 +30,11 @@
   - Marketing / promociones
   - Otro (especifique)
 
-  - **5. ¿Cuáles son los principales problemas que enfrenta hoy? (respuesta larga — texto)**
+  - **4. ¿Cuáles son los principales problemas que enfrenta hoy? (respuesta larga — texto)**
 
 - Prioridades de funcionalidades (múltiple sección: escala de importancia 1–5)
 
-  - **6. Califique la importancia de las siguientes funcionalidades (1 = Nada importante, 5 = Muy importante): (cuadro de escala / múltiple)**
+  - **5. Califique la importancia de las siguientes funcionalidades (1 = Nada importante, 5 = Muy importante): (cuadro de escala / múltiple)**
   - Gestión de socios (crear/editar perfiles)
   - Facturación y pagos recurrentes
   - Control de asistencias (QR / tarjeta / app)
@@ -59,39 +49,39 @@
 
 - Requisitos de uso y operativos
 
-  - **7. ¿Desde qué dispositivos esperaría usar el sistema? (checkbox)**
+  - **6. ¿Desde qué dispositivos esperaría usar el sistema? (checkbox)**
     - PC / Laptop
     - Tablet
     - Móvil (app)
     - Kiosco / terminal en recepción
-  - **8. ¿Necesita acceso multiusuario y niveles de permisos (ej. admin, cajero, entrenador)?**
+  - **7. ¿Necesita acceso multiusuario y niveles de permisos (ej. admin, cajero, entrenador)?**
     - Sí (campo corto para detallar roles deseados)
     - No
-  - **9. ¿Qué reportes necesita con mayor frecuencia? (checkbox + campo “otro”)**
+  - **8. ¿Qué reportes necesita con mayor frecuencia? (checkbox + campo “otro”)**
     - Reporte de ingresos y facturación
     - Reporte de asistencia diaria/mensual
     - Retención / baja de socios
     - Rendimiento por entrenador / clases más demandadas
     - Inventario vendido
     - Otro (especifique)
-  - **10. Restricciones y consideraciones: (respuesta larga)**
+  - **9. Restricciones y consideraciones: (respuesta larga)**
     - Presupuesto aproximado disponible (opcional)
     - Restricciones legales / privacidad (manejo de datos de salud)
     - Requisitos de idioma / localización
 
 - Disposición a cambio / adopción
 
-  - **11. ¿Estaría dispuesto a migrar sus datos actuales al nuevo sistema?**
+  - **10. ¿Estaría dispuesto a migrar sus datos actuales al nuevo sistema?**
     - Sí
     - No
     - Necesito más información
-  - **12. ¿Qué integración considera imprescindible? (múltiple opción — elegir hasta 2)**
+  - **11. ¿Qué integración considera imprescindible? (múltiple opción — elegir hasta 2)**
     - Pasarela de pago (Stripe, PayU, etc.)
     - Integración contable (Sunat / software contable local)
     - API para app móvil externa
     - Integración con hardware (lector de tarjetas / tornos)
     - Ninguna
-  - **13. Comentario final / requerimiento especial: (texto largo)**
+  - **12. Comentario final / requerimiento especial: (texto largo)**
 
 ---
 
