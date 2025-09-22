@@ -1,72 +1,43 @@
 # Desglose del Trabajo (WBS)
 
-## 1. Inicio y planificación (3 días)
-- Definir alcance y cronograma.
-- Crear repositorio inicial.
-- Depende de (-).
+## 1. DEFINICION DEL PROYECTO
+- Definir la idea del proyecto
+- Definir objetivo y alcance
+- Confirmar acceso al cliente (validar datos, reuniones)
+- Elaborar documento inicial (Acta de proyecto)
 
-## 2. Obtención de requisitos (8 días)
-- Encuestas, entrevistas y observación.
-- Consolidar insumos.
-- Depende del Inicio y planificación.
+## 2. ANALISIS DE REQUISITOS
+- Reunión inicial con cliente
+- Estudio de factibilidad
+- Proceso de obtención de requisitos
+- Especificación de requisitos (ERS)
+- Validación de requisitos con cliente
+- Entrega de informe ERS
 
-## 3. Análisis y especificación (4 días)
-- Organizar requisitos y priorizar.
-- Documentar reglas principales.
-- Depende de la Obtención de requisitos.
+## 3. ANÁLISIS Y DISEÑO DE ARTEFACTO
+- Diseño de prototipo de interfaces (mockups)
+- Diagramas procesos de negocio
+- Modelado de casos de uso (UML)
+- Diseño conceptual ER de la base de datos
+- Validación de diseño con el cliente
 
-## 4. Validación con cliente (2 días)
-- Revisión y ajustes de requisitos.
-- Confirmación final.
-- Depende del Análisis y especificación.
+## 4. IMPLEMENTACION
+- Configuración del entorno de desarrollo
+- Desarrollo del módulo de autenticación
+- Desarrollo del módulo de gestión de socios y membresías
+- Desarrollo del módulo de gestión de inventario de equipos
+- Desarrollo del módulo de gestión de empleados y asistencia
+- Integración de todos los módulos
 
-## 5. Diseño UI / prototipos (5 días)
-- Bocetos y mockups en Figma.
-- Revisión con cliente.
-- Depende de la Validación con cliente.
+## 5. PRUEBAS
+- Pruebas unitarias (por módulo)
+- Pruebas de integración (flujo completo del sistema)
+- Correcciones de errores encontrados
 
-## 6. Diseño técnico / modelo ER (4 días)
-- Definir stack y base de datos.
-- Pseudocódigo y endpoints.
-- Depende de la Validación con cliente.
+## 6. Elaboración de informe final
 
-## 7. Preparación de entorno (2 días)
-- Configurar ambiente y control de versiones.
-- Depende del Diseño técnico.
+## 7. Entrega del prototipo final
 
-## 8. Implementación Backend (14 días)
-- Autenticación, socios, membresías, pagos, inventario y empleados.
-- Endpoints para reportes básicos.
-- Depende del Diseño técnico y Preparación de entorno.
-
-## 9. Implementación Frontend (12 días)
-- Pantallas principales y conexión al backend.
-- Navegación y validaciones.
-- Depende del Diseño UI y Backend.
-
-## 10. Integración y pruebas unitarias (6 días)
-- Integrar módulos.
-- Pruebas básicas de flujos.
-- Depende de la Implementación Backend y Frontend.
-
-## 11. Pruebas de usabilidad y ajustes (4 días)
-- Sesiones con cliente.
-- Corrección de fallos críticos.
-- Depende de la Integración y pruebas.
-
-## 12. Despliegue y capacitación (3 días)
-- Configurar backups.
-- Capacitación al administrador.
-- Depende de las Pruebas de usabilidad.
-
-## 13. Pruebas finales y entrega (4 días)
-- Validación final.
-- Documentación y cierre.
-- Depende del Despliegue.
-
-## 14. Buffer / Contingencia (4 días)
-- Tiempo para imprevistos.
-- Disponible durante el proyecto.
 
 
 
@@ -89,6 +60,7 @@
 | 4.2  | Capacitación y guía de usuario                    | Manual corto + sesión de capacitación grabada                | Jeanpiere Burga Montesinos    |
 | 4.3  | Documentación final y entrega                     | Paquete entregable (.zip) + acta de entrega                  | Kevin Rivera Marcos    |
 | 4.4  | Seguimiento/Buffer y cierre                       | Registro de cambios / cierre del proyecto                    | Nicolas Garcia Avalos    |
+
 
 
 
