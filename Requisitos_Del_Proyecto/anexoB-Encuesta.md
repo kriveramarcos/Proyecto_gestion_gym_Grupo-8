@@ -107,3 +107,12 @@
 </div>
 
 
+<p align="center">
+  <img src="imagen/inicio.jpeg" alt="Logo Espartanos Fitness" width="600"/>
+</p>
+
+## LOGIN Y REGISTER
+
+<p align="center">
+  <img src="imagen/encuesta1.png" alt="Logo Espartanos Fitness" width="600"/>
+</p>
