@@ -114,3 +114,36 @@ https://docs.google.com/forms/d/e/1FAIpQLSdoXg7WHiKsR6ZG8LxWIU0bUcPYM4lJ74eWYyE0
 <p align="center">
   <img src="imagen/encuesta2.png" alt="Formulario Espartanos Fitness" width="600"/>
 </p>
+
+<p align="center">
+  <img src="imagen/encuesta3.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta4.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta5.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta6.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta7.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta8.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta9.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
+<p align="center">
+  <img src="imagen/encuesta10.png" alt="Formulario Espartanos Fitness" width="600"/>
+</p>
+
