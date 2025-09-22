@@ -4,43 +4,43 @@
 ## Será para el Administrador (objetivo: definir alcance funcional y prioridades)
 
   - **1. ¿Actualmente usa algún software para gestionar el gimnasio?**-
-  - Sí — (campo corto) ¿Cuál?
-  - No
+    - Sí — (campo corto) ¿Cuál?
+    - No
 
   - **2. Tamaño del gimnasio**
 
-  - 1–50 socios
-  - 51–200 socios
-  - 201–500 socios
-  - Más de 500 socios
+    - 1–50 socios
+    - 51–200 socios
+    - 201–500 socios
+    - Más de 500 socios
 
   - **3. Indique qué procesos gestiona actualmente manualmente (marque todos los que apliquen): (checkbox)**
-  - Inscripciones / registros de socios
-  - Cobro de membresías / facturación
-  - Control de asistencias / check-in
-  - Gestión de planillas (horarios de entrenadores)
-  - Control de inventario (nutrición, merchandising)
-  - Reservas de clases / cupos
-  - Seguimiento de progreso del cliente
-  - Reportes financieros / KPI
-  - Marketing / promociones
-  - Otro (especifique)
+    - Inscripciones / registros de socios
+    - Cobro de membresías / facturación
+    - Control de asistencias / check-in
+    - Gestión de planillas (horarios de entrenadores)
+    - Control de inventario (nutrición, merchandising)
+    - Reservas de clases / cupos
+    - Seguimiento de progreso del cliente
+    - Reportes financieros / KPI
+    - Marketing / promociones
+    - Otro (especifique)
 
   - **4. ¿Cuáles son los principales problemas que enfrenta hoy? (respuesta larga — texto)**
 
 
   - **5. Califique la importancia de las siguientes funcionalidades (1 = Nada importante, 5 = Muy importante): (cuadro de escala / múltiple)**
-  - Gestión de socios (crear/editar perfiles)
-  - Facturación y pagos recurrentes
-  - Control de asistencias (QR / tarjeta / app)
-  - Reservas y cupos de clases
-  - Agenda y asignación de entrenadores
-  - Seguimiento de rutinas y progresos de clientes
-  - Reportes (financieros, asistencia, retención)
-  - Gestión de inventario y ventas en front desk
-  - Módulo de comunicación (SMS/Email/Push)
-  - Seguridad y control de accesos
-  - Integraciones (TPV, contabilidad, pasarelas de pago)
+    - Gestión de socios (crear/editar perfiles)
+    - Facturación y pagos recurrentes
+    - Control de asistencias (QR / tarjeta / app)
+    - Reservas y cupos de clases
+    - Agenda y asignación de entrenadores
+    - Seguimiento de rutinas y progresos de clientes
+    - Reportes (financieros, asistencia, retención)
+    - Gestión de inventario y ventas en front desk
+    - Módulo de comunicación (SMS/Email/Push)
+    - Seguridad y control de accesos
+    - Integraciones (TPV, contabilidad, pasarelas de pago)
 
 
   - **6. ¿Desde qué dispositivos esperaría usar el sistema? (checkbox)**
