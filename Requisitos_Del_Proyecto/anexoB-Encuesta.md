@@ -99,3 +99,11 @@
   - Sí (campo para dejar contacto — opcional)
   - No
 - **4. Comentarios adicionales: (texto largo)**
+
+
+
+<div style="text-align: center;">
+    <img src="images/encuesta1.png" alt="Texto alternativo">
+</div>
+
+
