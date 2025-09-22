@@ -3,8 +3,6 @@
 
 ## Será para el Administrador (objetivo: definir alcance funcional y prioridades)
 
-- Datos Básicos
-
   - **1. ¿Actualmente usa algún software para gestionar el gimnasio?**-
   - Sí — (campo corto) ¿Cuál?
   - No
@@ -15,8 +13,6 @@
   - 51–200 socios
   - 201–500 socios
   - Más de 500 socios
-
-- Procesos actuales
 
   - **3. Indique qué procesos gestiona actualmente manualmente (marque todos los que apliquen): (checkbox)**
   - Inscripciones / registros de socios
@@ -32,7 +28,6 @@
 
   - **4. ¿Cuáles son los principales problemas que enfrenta hoy? (respuesta larga — texto)**
 
-- Prioridades de funcionalidades (múltiple sección: escala de importancia 1–5)
 
   - **5. Califique la importancia de las siguientes funcionalidades (1 = Nada importante, 5 = Muy importante): (cuadro de escala / múltiple)**
   - Gestión de socios (crear/editar perfiles)
@@ -47,7 +42,6 @@
   - Seguridad y control de accesos
   - Integraciones (TPV, contabilidad, pasarelas de pago)
 
-- Requisitos de uso y operativos
 
   - **6. ¿Desde qué dispositivos esperaría usar el sistema? (checkbox)**
     - PC / Laptop
@@ -69,7 +63,6 @@
     - Restricciones legales / privacidad (manejo de datos de salud)
     - Requisitos de idioma / localización
 
-- Disposición a cambio / adopción
 
   - **10. ¿Estaría dispuesto a migrar sus datos actuales al nuevo sistema?**
     - Sí
