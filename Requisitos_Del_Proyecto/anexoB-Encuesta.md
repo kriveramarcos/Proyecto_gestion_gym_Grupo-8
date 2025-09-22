@@ -16,7 +16,7 @@
   - 201–500 socios
   - Más de 500 socios
 
-- Procesos actuales / Dolor
+- Procesos actuales
 
   - **3. Indique qué procesos gestiona actualmente manualmente (marque todos los que apliquen): (checkbox)**
   - Inscripciones / registros de socios
