@@ -74,21 +74,22 @@
 
 | ID   | Tarea (resumen)                                    | Entregable (resumen)                                         | Responsable |
 |------|----------------------------------------------------|-------------------------------------------------------------|-------------|
-| 1.1  | Inicio y planificación                            | Acta de inicio + Cronograma (ProjectLibre)                   | Alumno 1    |
-| 1.2  | Recopilar requisitos (encuestas/entrev.)           | Documento de requisitos crudos / actas de entrevista         | Alumno 2    |
-| 1.3  | Análisis y especificación de requisitos            | Documento de Requisitos validado                             | Alumno 3    |
-| 1.4  | Validación con cliente (revisión)                 | Acta de validación / ajustes                                 | Alumno 2    |
-| 2.1  | Diseño UI / Prototipos (Figma)                    | Prototipos Figma (pantallas clave)                           | Alumno 4    |
-| 2.2  | Diseño técnico / Modelo de datos (ER)             | Diagrama ER + esquema técnico (DDL o esquema de archivos)    | Alumno 3    |
-| 3.1  | Preparación de repositorio y entorno              | Repo inicial + README + scripts                              | Alumno 1    |
-| 3.2  | Implementación Backend (core funcional)           | API / código backend funcional                               | Alumno 2    |
-| 3.3  | Implementación Frontend (interfaz)                | Frontend operativo (pantallas principales)                   | Alumno 3    |
-| 3.4  | Integración y pruebas (unitarias/integr.)         | Informe de pruebas e incidencias                             | Alumno 4    |
-| 3.5  | Pruebas de usabilidad con cliente                  | Informe de usabilidad + lista de ajustes                     | Alumno 1    |
-| 4.1  | Despliegue + backups                               | Programa desplegado + backups configurados                 | Alumno 1    |
-| 4.2  | Capacitación y guía de usuario                    | Manual corto + sesión de capacitación grabada                | Alumno 4    |
-| 4.3  | Documentación final y entrega                     | Paquete entregable (.zip) + acta de entrega                  | Alumno 2    |
-| 4.4  | Seguimiento/Buffer y cierre                       | Registro de cambios / cierre del proyecto                    | Alumno 3    |
+| 1.1  | Inicio y planificación                            | Acta de inicio + Cronograma (ProjectLibre)                   | Aaron Bejar Mallma    |
+| 1.2  | Recopilar requisitos (encuestas/entrev.)           | Documento de requisitos crudos / actas de entrevista         | Kevin Rivera Marcos    |
+| 1.3  | Análisis y especificación de requisitos            | Documento de Requisitos validado                             | Nicolas Garcia Avalos   |
+| 1.4  | Validación con cliente (revisión)                 | Acta de validación / ajustes                                 | Kevin Rivera Marcos    |
+| 2.1  | Diseño UI / Prototipos (Figma)                    | Prototipos Figma (pantallas clave)                           | Jeanpiere Burga Montesinos    |
+| 2.2  | Diseño técnico / Modelo de datos (ER)             | Diagrama ER + esquema técnico (DDL o esquema de archivos)    | Nicolas Garcia Avalos   |
+| 3.1  | Preparación de repositorio y entorno              | Repo inicial + README + scripts                              | Aaron Bejar Mallma    |
+| 3.2  | Implementación Backend (core funcional)           | API / código backend funcional                               | Kevin Rivera Marcos    |
+| 3.3  | Implementación Frontend (interfaz)                | Frontend operativo (pantallas principales)                   | Nicolas Garcia Avalos    |
+| 3.4  | Integración y pruebas (unitarias/integr.)         | Informe de pruebas e incidencias                             | Jeanpiere Burga Montesinos    |
+| 3.5  | Pruebas de usabilidad con cliente                  | Informe de usabilidad + lista de ajustes                     | Aaron Bejar Mallma    |
+| 4.1  | Despliegue + backups                               | Programa desplegado + backups configurados                 | Aaron Bejar Mallma    |
+| 4.2  | Capacitación y guía de usuario                    | Manual corto + sesión de capacitación grabada                | Jeanpiere Burga Montesinos    |
+| 4.3  | Documentación final y entrega                     | Paquete entregable (.zip) + acta de entrega                  | Kevin Rivera Marcos    |
+| 4.4  | Seguimiento/Buffer y cierre                       | Registro de cambios / cierre del proyecto                    | Nicolas Garcia Avalos    |
+
 
 
 
