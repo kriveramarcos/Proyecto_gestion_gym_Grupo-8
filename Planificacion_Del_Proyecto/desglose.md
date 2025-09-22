@@ -85,10 +85,11 @@
 | 3.3  | Implementación Frontend (interfaz)                | Frontend operativo (pantallas principales)                   | Alumno 3    |
 | 3.4  | Integración y pruebas (unitarias/integr.)         | Informe de pruebas e incidencias                             | Alumno 4    |
 | 3.5  | Pruebas de usabilidad con cliente                  | Informe de usabilidad + lista de ajustes                     | Alumno 1    |
-| 4.1  | Despliegue en VPS + backups                       | App desplegada en VPS + backups configurados                 | Alumno 1    |
+| 4.1  | Despliegue + backups                               | Programa desplegado + backups configurados                 | Alumno 1    |
 | 4.2  | Capacitación y guía de usuario                    | Manual corto + sesión de capacitación grabada                | Alumno 4    |
 | 4.3  | Documentación final y entrega                     | Paquete entregable (.zip) + acta de entrega                  | Alumno 2    |
 | 4.4  | Seguimiento/Buffer y cierre                       | Registro de cambios / cierre del proyecto                    | Alumno 3    |
+
 
 
 
