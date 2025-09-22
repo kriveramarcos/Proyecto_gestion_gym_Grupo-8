@@ -67,5 +67,3 @@ El entrevistado está abierto a probar prototipos y brindar feedback. Prefiere u
 Se acuerda que el entrevistado revisará el borrador de requisitos y participará en pruebas piloto.  
 **Contacto**: WhatsApp (ejemplo).
 
-# Link de acceso: 
-https://docs.google.com/forms/d/e/1FAIpQLSdoXg7WHiKsR6ZG8LxWIU0bUcPYM4lJ74eWYyE0465XbSV6oA/viewform?usp=header
