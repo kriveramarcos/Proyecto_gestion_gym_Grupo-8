@@ -101,18 +101,16 @@
 - **4. Comentarios adicionales: (texto largo)**
 
 
+# Link de acceso: 
+https://docs.google.com/forms/d/e/1FAIpQLSdoXg7WHiKsR6ZG8LxWIU0bUcPYM4lJ74eWYyE0465XbSV6oA/viewform?usp=header
 
-<div style="text-align: center;">
-    <img src="images/encuesta1.png" alt="Texto alternativo">
-</div>
 
+## RESPUESTA FORMULARIO
 
 <p align="center">
-  <img src="imagen/inicio.jpeg" alt="Logo Espartanos Fitness" width="600"/>
+  <img src="imagen/encuesta1.png" alt="Formulario Espartanos Fitness" width="600"/>
 </p>
 
-## LOGIN Y REGISTER
-
 <p align="center">
-  <img src="imagen/encuesta1.png" alt="Logo Espartanos Fitness" width="600"/>
+  <img src="imagen/encuesta2.png" alt="Formulario Espartanos Fitness" width="600"/>
 </p>
