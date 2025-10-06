@@ -6,28 +6,6 @@ El objetivo principal del proyecto es proporcionar una herramienta *sencilla, pr
 
 ---
 
-## Presupuesto
-
-Para la ejecución del proyecto, se ha estimado un presupuesto que cubre los costos de *recursos humanos, **gastos operativos* y un *margen de contingencia*.  
-El equipo de trabajo está conformado por *cuatro desarrolladores, y el tiempo de desarrollo proyectado es de **15 semanas*.
-
-### Presupuesto Estimado
-
-| Categoría          | Importe (S/.) |
-|--------------------|---------------|
-| Recursos Humanos   | 2,000.00      |
-| Gastos Operativos  | 480.00        |
-| Contingencia       | 124.00        |
-| *Total estimado* | *2,604.00*  |
-
-### Detalle del Presupuesto
-
-- *Recursos Humanos*  
-  - 4 desarrolladores (S/. 500 x 4): *S/. 2,000*
-
-- *Gastos Operativos*  
-  - Electricidad e Internet: *S/. 400*  
-  - Transporte: *S/. 80*
 
 ---
 
@@ -38,3 +16,4 @@ El equipo de trabajo está conformado por *cuatro desarrolladores, y el tiempo d
 - Alcance funcional reducido.  
 - Mantenimiento posterior al proyecto.  
 - Dependencia de la información recibida.
+
