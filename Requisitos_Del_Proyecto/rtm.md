@@ -5,6 +5,23 @@
 A continuación se transforman los requisitos mandatorios a especificaciones técnicas (endpoints, entidades y pseudocódigo).
 
 - **RF-001 El sistema debe permitir la autenticación del administrardor a partir de los datos almacenados en archivos planos.**
+- Pseudocido:
+- Funcion autenticarAdministrador(usuarioIngresado, contrasenaIngresada)
+    archivoUsuarios ← abrirArchivo("admin.txt", "lectura")
+    encontrado ← FALSO
+    
+    Mientras no finArchivo(archivoUsuarios) Hacer
+        registro ← leerLinea(archivoUsuarios)
+        [usuario, contrasena] ← dividir(registro, ";")
+        Si usuario = usuarioIngresado Y contrasena = contrasenaIngresada Entonces
+            encontrado ← VERDADERO
+            SalirMientras
+        FinSi
+    FinMientras
+    
+    cerrarArchivo(archivoUsuarios)
+    Retornar encontrado
+FinFuncion
 
 ---
 
