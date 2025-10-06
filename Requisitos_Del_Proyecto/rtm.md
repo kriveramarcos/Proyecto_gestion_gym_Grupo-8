@@ -23,8 +23,6 @@ A continuación se transforman los requisitos mandatorios a especificaciones té
     cerrarArchivo(archivoUsuarios)
     Retornar encontrado
   FinFuncion
-
-
 ---
 
 - **RF-002 El sistema debe validar que el usuario y contraseña del administrador coincidan con un registro existente antes de permitir el acceso.**
