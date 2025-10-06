@@ -7,8 +7,6 @@ El objetivo principal del proyecto es proporcionar una herramienta *sencilla, pr
 ---
 
 
----
-
 ## Limitaciones
 
 - Dependencia de la disponibilidad del equipo de trabajo.  
@@ -16,4 +14,5 @@ El objetivo principal del proyecto es proporcionar una herramienta *sencilla, pr
 - Alcance funcional reducido.  
 - Mantenimiento posterior al proyecto.  
 - Dependencia de la información recibida.
+
 
