@@ -6,8 +6,8 @@ A continuación se transforman los requisitos mandatorios a especificaciones té
 
 - **RF-001 El sistema debe permitir la autenticación del administrardor a partir de los datos almacenados en archivos planos.**
 **Pseudocódigo:**
-  
-Funcion autenticarAdministrador(usuarioIngresado, contrasenaIngresada)
+  ```
+    Funcion autenticarAdministrador(usuarioIngresado, contrasenaIngresada)
     archivoUsuarios ← abrirArchivo("admin.txt", "lectura")
     encontrado ← FALSO
     
@@ -22,7 +22,8 @@ Funcion autenticarAdministrador(usuarioIngresado, contrasenaIngresada)
     
     cerrarArchivo(archivoUsuarios)
     Retornar encontrado
-FinFuncion
+  FinFuncion
+
 
 ---
 
