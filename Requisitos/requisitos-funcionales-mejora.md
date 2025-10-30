@@ -1,8 +1,21 @@
-## Descripción detallada de requisitos funcionales de mejora del software
+# Requisitos funcionales de mejora (opcional / priorizar si hay tiempo)
 
-Esta parte ya fue trabajada en la sección Requisitos funcionales de mejora en:
+*(Se implementan si el tiempo y recursos lo permiten; recomendados para Fase 2)*
 
-[Guía 01 - Categorización lógica de requisitos](../../guide01/requisitos/categorizacion.md#categorizacion-logica-de-requisitos-organizacion-de-los-requisitos-de-usuario).
+## RF-M01 — Notificaciones automáticas
+Envío de recordatorios y avisos (email / SMS / push) sobre vencimientos, reservas o faltas de pago.
 
-Consulta y reutiliza ese contenido.
+## RF-M02 — Integración con pasarelas de pago
+Integración con Yape/Plin/bancos para cobros automáticos (planificado para Fase 2 por temas legales).
 
+## RF-M03 — Módulo de seguimiento con gráficas
+Registro y visualización de progreso físico (peso, medidas) mediante gráficas y evolución por usuario.
+
+## RF-M04 — Gamificación
+Sistema de puntos, retos o logros para fidelizar usuarios (por ejemplo: asistencia continua).
+
+## RF-M05 — Exportar reportes
+Exportar reportes a CSV/PDF para contabilidad o archivo.
+
+## RF-M06 — Reservas avanzadas y políticas
+Penalizaciones configurables y reglas para no-shows (avisos, bloqueo temporal), con gestión fina desde admin.
