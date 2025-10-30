@@ -1,7 +1,7 @@
 ## DIAGRAMA DE PROCESOS - SPARTANOS FITNESS
 
 <p align="center">
-  <img src="diagrama1.png" alt="Diagrama de procesos - Bizagi Modeler" width="600"/>
+  <img src="diagrama1.png" alt="diagrama1" width="600"/>
 </p>
 
 Realizado en Bizagi modeler
