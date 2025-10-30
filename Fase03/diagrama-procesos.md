@@ -5,5 +5,6 @@
 
 Realizado en Bizagi modeler
 
+<img width="1003" height="527" alt="Image" src="https://github.com/user-attachments/assets/469483ab-892c-4052-a09f-108494781353" />
 
-
+Realizado en Bizagi modeler
