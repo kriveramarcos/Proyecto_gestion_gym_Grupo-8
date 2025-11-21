@@ -1,7 +1,16 @@
+1. **Pantalla de inicio al cargar el programa**
 ![Image](https://github.com/user-attachments/assets/b65995cb-c699-4bb1-991e-2c202eb898bf)
+
+2. **Pantalla de registro para nuevo usuario**
 ![Image](https://github.com/user-attachments/assets/5c499897-a7d8-4831-ac50-3bc483b814ab)
-![Image](https://github.com/user-attachments/assets/f9b21b0a-e49c-4645-bab5-0a5634bdae7c)
+
+3. **Pantalla de inicio de sesión para el administrador**
 ![Image](https://github.com/user-attachments/assets/57b631a2-6533-461b-8cb2-3648466cf5af)
+
+4. **Pantalla principal al ingresar como administrador**
+![Image](https://github.com/user-attachments/assets/f9b21b0a-e49c-4645-bab5-0a5634bdae7c)
+
+5. **Pantalla principal de la vista de "Socios del Gimnasio"**
 ![Image](https://github.com/user-attachments/assets/6b4a8e77-c306-4618-a6d3-8fadc5fa200f)
 ![Image](https://github.com/user-attachments/assets/2a4fd6ad-d1ea-4c98-9b65-f959b58d0070)
 ![Image](https://github.com/user-attachments/assets/3578017d-aa9f-49a2-84cd-f4ef4926506d)
