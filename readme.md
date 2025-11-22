@@ -1,13 +1,13 @@
-# Seguimiento — Cronograma y ejecución real (cierre 24-11-2025)
+# Seguimiento — Cronograma y ejecución real (cierre 17-11-2025)
 
 **Proyecto:** Espartanos Fitness — Prototipo sistema de gestión  
-**Periodo de seguimiento:** inicio planificado 18-ago-2025 — cierre real 24-nov-2025  
+**Periodo de seguimiento:** inicio planificado 18-ago-2025 — cierre real 17-nov-2025  
 **Responsable del seguimiento:** Equipo de Desarrollo (ED)
 
 ---
 
 ## 1) Resumen ejecutivo
-El cronograma original (Planificado) preveía terminar la entrega final el **11/11/2025**. Durante la ejecución se presentaron retrasos leves y uno moderado en pruebas/integración, por lo que la **fecha real de entrega** se movió al **24/11/2025** (retraso total = **13 días**). Las causas principales fueron: (i) ajustes de código detectados en integración (reserva/concurrencia y reglas de pago), (ii) iteraciones de corrección por errores críticos, y (iii) disponibilidad limitada del equipo por cargas académicas. A continuación se muestra la comparación por bloques de trabajo.
+El cronograma original (Planificado) preveía terminar la entrega final el **11/11/2025**. Durante la ejecución se presentaron retrasos leves y uno moderado en pruebas/integración, por lo que la **fecha real de entrega** se movió al **17/11/2025** (retraso total = **6 días**). Las causas principales fueron: (i) ajustes de código detectados en integración (reserva/concurrencia y reglas de pago), (ii) iteraciones de corrección por errores críticos, y (iii) disponibilidad limitada del equipo por cargas académicas. A continuación se muestra la comparación por bloques de trabajo.
 
 ---
 
@@ -20,11 +20,11 @@ El cronograma original (Planificado) preveía terminar la entrega final el **11/
 | 15 | **Análisis y diseño de artefactos** | 16/09/2025 → 25/09/2025 | 19/09/2025 → 28/09/2025 | Completada | +3 días por refinamiento de prototipos y CU. |
 | 21 | **Implementación (módulos)** | 26/09/2025 → 24/10/2025 | 29/09/2025 → 31/10/2025 | Completada | +7 días; ajustes en autenticación y pagos. |
 | 27 | **Integración de módulos** | 20/10/2025 → 24/10/2025 | 01/11/2025 → 07/11/2025 | Completada | Conflictos de datos y concurrencia. |
-| 28–31 | **Pruebas (unitarias + integración + correcciones)** | 27/10/2025 → 04/11/2025 | 08/11/2025 → 18/11/2025 | Completada | +10 días en testing y fixes (reservas, pago, asistencia). |
-| 32 | **Desarrollo del informe final** | 05/11/2025 → 11/11/2025 | 19/11/2025 → 21/11/2025 | Completada | Redacción tras cierre de correcciones. |
-| 33 | **Entrega del prototipo** | 11/11/2025 | 24/11/2025 | Completada (entrega final) | Entrega retrasada 13 días respecto al plan. |
+| 28–31 | **Pruebas (unitarias + integración + correcciones)** | 27/10/2025 → 04/11/2025 | 08/11/2025 → 13/11/2025 | Completada | +6 días en testing y fixes (reservas, pago, asistencia). |
+| 32 | **Desarrollo del informe final** | 05/11/2025 → 11/11/2025 | 14/11/2025 → 16/11/2025 | Completada | Redacción tras cierre de correcciones. |
+| 33 | **Entrega del prototipo** | 11/11/2025 | 17/11/2025 | Completada (entrega final) | Entrega retrasada 6 días respecto al plan. |
 
-> **Totales:** Fin planificado = 11/11/2025 → Fin real = **24/11/2025** → **Retraso total = 13 días**.
+> **Totales:** Fin planificado = 11/11/2025 → Fin real = **17/11/2025** → **Retraso total = 6 días**.
 
 ---
 
@@ -37,7 +37,7 @@ El cronograma original (Planificado) preveía terminar la entrega final el **11/
 
 ---
 
-## 4) Estado de entregables (al cierre 24/11/2025)
+## 4) Estado de entregables (al cierre 17/11/2025)
 
 **Entregados / Completos**
 - Acta de proyecto (Definición)  
@@ -60,7 +60,7 @@ El cronograma original (Planificado) preveía terminar la entrega final el **11/
 
 ## 5) Métricas simples del seguimiento
 
-- **Retraso total (días calendario):** +13 días  
+- **Retraso total (días calendario):** +6 días  
 - **Actividades con retraso:** 5/8 bloques principales (análisis, diseño, implementación, integración, pruebas)  
 - **% Cumplimiento de RF mandatorios:** 100% implementados (según checklist y pruebas funcionales básicas)  
 - **Número de iteraciones de corrección importantes:** 2 (post-integración)
@@ -91,5 +91,4 @@ El cronograma original (Planificado) preveía terminar la entrega final el **11/
 ---
 
 ## 8) Conclusión breve
-Se entregó un prototipo funcional que cumple los **requisitos mandatorios** y cuenta con pruebas documentadas. Hubo un retraso de 13 días respecto al plan inicial por problemas de integración y correcciones críticas, pero la entrega final (24/11/2025) incluye: código, prototipos, ERS, pruebas y el informe final. Recomendamos una fase de estabilización (2 semanas) post-entrega para ajustes menores y la planificación de la fase 2 (pagos e integraciones).
-
+Se entregó un prototipo funcional que cumple los **requisitos mandatorios** y cuenta con pruebas documentadas. Hubo un retraso de 6 días respecto al plan inicial por problemas de integración y correcciones críticas, pero la entrega final (17/11/2025) incluye: código, prototipos, ERS, pruebas y el informe final. Recomendamos una fase de estabilización (2 semanas) post-entrega para ajustes menores y la planificación de la fase 2 (pagos e integraciones).
