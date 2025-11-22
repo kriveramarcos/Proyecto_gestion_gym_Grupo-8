@@ -11,11 +11,11 @@
 3. Pulsar **Ingresar**.  
 **Resultado observado:** Se muestra un diálogo de error genérico ("Error de autenticación") y no se indica que la contraseña es obligatoria.  
 **Resultado esperado:** Validación del formulario en cliente/servidor mostrando "La contraseña es obligatoria" y no enviar petición al backend.  
-**Fecha del defecto:** 2025-11-18  
-**Detectado por (Tester):** Nicolas Garcia Avalos 
+**Fecha del defecto:** 2025-10-12  
+**Detectado por (Tester):** Jeanpiere Burga Montesinos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
+**Corregido por:** Aaron Bejar Mallma  
+**Fecha de cierre:** 2025-10-18  
 **Prioridad:** Media  
 **Evidencia:** `evidencias/DEF-01_login_contrasena_vacia.png`
 
@@ -30,11 +30,11 @@
 3. Repetir el proceso con el mismo DNI.  
 **Resultado observado:** Se crean dos fichas con el mismo DNI sin advertencia.  
 **Resultado esperado:** Mostrar mensaje "DNI ya registrado" y bloquear la creación.  
-**Fecha del defecto:** 2025-11-18  
-**Detectado por (Tester):** Kevin Rivera Marcos  
+**Fecha del defecto:** 2025-10-13  
+**Detectado por (Tester):** Nicolas Garcia Avalos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
+**Corregido por:** Aaron Bejar Mallma  
+**Fecha de cierre:** 2025-10-20  
 **Prioridad:** Alta  
 **Evidencia:** `evidencias/DEF-02_socios_dni_duplicado_1.png`, `evidencias/DEF-02_socios_dni_duplicado_2.png`
 
@@ -44,16 +44,16 @@
 **Título:** Anulación de pago fuera de 24h permite eliminar registro (regla no aplicada)  
 **Descripción del defecto:** La regla de negocio indica que pagos no deben poder anularse pasadas 24 horas. En pruebas, la anulación fue permitida aun cuando la fecha del pago era de hace 3 días.  
 **Pasos para reproducir:**
-1. Ir a **Pagos** y seleccionar un pago con fecha `2025-11-15` (hoy es 2025-11-18).  
+1. Ir a **Pagos** y seleccionar un pago con fecha `2025-10-11`.  
 2. Pulsar **Anular pago**.  
 3. Confirmar la anulación.  
 **Resultado observado:** El sistema permite anular y en la ficha del socio se actualizan estados como si se hubiera anulado correctamente.  
 **Resultado esperado:** Bloquear anulación con mensaje "No es posible anular pagos mayores a 24h" y dejar histórico marcado como no anulable.  
-**Fecha del defecto:** 2025-11-18  
-**Detectado por (Tester):** Aaron Bejar Mallma  
+**Fecha del defecto:** 2025-10-14  
+**Detectado por (Tester):** Kevin Rivera Marcos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
+**Corregido por:** Aaron Bejar Mallma  
+**Fecha de cierre:** 2025-10-22  
 **Prioridad:** Crítico  
 **Evidencia:** `evidencias/DEF-03_anular_pago_fuera_24h.png`
 
@@ -64,15 +64,15 @@
 **Descripción del defecto:** Cuando dos usuarios intentan reservar simultáneamente el mismo cupo (misma hora), el sistema permitió ambas reservas (sobreventa).  
 **Pasos para reproducir:**
 1. Sesión A: en PC1, intentar reservar clase Lunes 10:00 (cupo restante = 1).  
-2. Sesión B: en PC2, intentar reservar la misma clase al mismo tiempo.  
+2. Sesión B: en PC2, intentar reservar la misma clase al mismo timepo.  
 3. Confirmar ambas en paralelo.  
 **Resultado observado:** Ambas reservas se crean y el cupo queda en -1 o la lista muestra sobreventa.  
 **Resultado esperado:** Control de concurrencia (bloqueo o transacción). Solo una reserva debe confirmarse cuando queda 1 cupo. La otra debe recibir "Cupo no disponible".  
-**Fecha del defecto:** 2025-11-19  
-**Detectado por (Tester):** Nicolas Garcia Avalos  
+**Fecha del defecto:** 2025-10-16  
+**Detectado por (Tester):** Jeanpiere Burga Montesinos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
+**Corregido por:** Aaron Bejar Mallma  
+**Fecha de cierre:** 2025-10-24  
 **Prioridad:** Alta  
 **Evidencia:** `evidencias/DEF-04_reserva_concurrencia_pc1.png`, `evidencias/DEF-04_reserva_concurrencia_pc2.png`
 
@@ -86,11 +86,11 @@
 2. Ver fecha de fin calculada.  
 **Resultado observado:** Fecha fin calculada = `2025-03-02` (suma 30 días) en vez de `2025-02-28` (o 29).  
 **Resultado esperado:** Fecha fin debe respetar la duración esperada del plan (si se define "1 mes", agregar 1 mes calendario).  
-**Fecha del defecto:** 2025-11-17  
-**Detectado por (Tester):** Kevin Rivera Marcos  
+**Fecha del defecto:** 2025-10-18  
+**Detectado por (Tester):** Nicolas Garcia Avalos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
+**Corregido por:** Kevin Rivera Marcos  
+**Fecha de cierre:** 2025-10-25  
 **Prioridad:** Media  
 **Evidencia:** `evidencias/DEF-05_fecha_fin_memb_incorrecta.png`
 
@@ -105,11 +105,11 @@
 3. Actualizar página o buscar `SN003` de nuevo.  
 **Resultado observado:** Tras actualizar, el estado vuelve a `activo`.  
 **Resultado esperado:** Estado persistente en almacenamiento; al recargar, debe permanecer `mantenimiento`.  
-**Fecha del defecto:** 2025-11-16  
-**Detectado por (Tester):** Jeanpiere Burga Montesinos 
+**Fecha del defecto:** 2025-10-19  
+**Detectado por (Tester):** Nicolas Garcia Avalos  
 **Estado del defecto:** Corregido (pendiente verificación)  
-**Corregido por:** Alumno D  
-**Fecha de cierre:** 2025-11-20  
+**Corregido por:** Aaron Bejar Mallma  
+**Fecha de cierre:** 2025-10-30  
 **Prioridad:** Media  
 **Evidencia:** `evidencias/DEF-06_inventario_mantenimiento_before.png`, `evidencias/DEF-06_inventario_mantenimiento_after.png`
 
@@ -123,12 +123,12 @@
 2. Pulsar **Registrar salida**.  
 **Resultado observado:** Interfaz muestra "Salida registrada", pero el campo `horaSalida` queda vacío en la base (o muestra `00:00`).  
 **Resultado esperado:** Registrar salida debe actualizar `horaSalida` con el timestamp actual.  
-**Fecha del defecto:** 2025-11-19  
-**Detectado por (Tester):** Aaron Bejar Mallma  
+**Fecha del defecto:** 2025-10-21  
+**Detectado por (Tester):** Jeanpiere Burga Montesinos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
-**Prioridad:** Alta  
+**Corregido por:** Kevin Rivera Marcos  
+**Fecha de cierre:** 2025-11-02  
+**Prioridad:** High  
 **Evidencia:** `evidencias/DEF-07_asistencia_salida_no_guardada.png`
 
 ---
@@ -142,11 +142,11 @@
 3. Generar reporte.  
 **Resultado observado:** El reporte muestra entradas duplicadas y algunas filas con `horaSalida` vacía.  
 **Resultado esperado:** Mostrar una fila por registro de asistencia con ambos campos (`horaEntrada`, `horaSalida`) llenos.  
-**Fecha del defecto:** 2025-11-20  
-**Detectado por (Tester):** Jeanpiere Burga Montesinos  
+**Fecha del defecto:** 2025-10-25  
+**Detectado por (Tester):** Kevin Rivera Marcos  
 **Estado del defecto:** Abierto  
-**Corregido por:** —  
-**Fecha de cierre:** —  
+**Corregido por:** Aaron Bejar Mallma  
+**Fecha de cierre:** 2025-11-08  
 **Prioridad:** Alta  
 **Evidencia:** `evidencias/DEF-08_reporte_asistencia_filtrado_dni.png`
 
