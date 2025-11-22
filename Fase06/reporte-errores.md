@@ -12,7 +12,7 @@
 **Resultado observado:** Se muestra un diálogo de error genérico ("Error de autenticación") y no se indica que la contraseña es obligatoria.  
 **Resultado esperado:** Validación del formulario en cliente/servidor mostrando "La contraseña es obligatoria" y no enviar petición al backend.  
 **Fecha del defecto:** 2025-11-18  
-**Detectado por (Tester):** Alumno C  
+**Detectado por (Tester):** Nicolas Garcia Avalos 
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
@@ -31,7 +31,7 @@
 **Resultado observado:** Se crean dos fichas con el mismo DNI sin advertencia.  
 **Resultado esperado:** Mostrar mensaje "DNI ya registrado" y bloquear la creación.  
 **Fecha del defecto:** 2025-11-18  
-**Detectado por (Tester):** Alumno C  
+**Detectado por (Tester):** Kevin Rivera Marcos  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
@@ -50,7 +50,7 @@
 **Resultado observado:** El sistema permite anular y en la ficha del socio se actualizan estados como si se hubiera anulado correctamente.  
 **Resultado esperado:** Bloquear anulación con mensaje "No es posible anular pagos mayores a 24h" y dejar histórico marcado como no anulable.  
 **Fecha del defecto:** 2025-11-18  
-**Detectado por (Tester):** Alumno C  
+**Detectado por (Tester):** Aaron Bejar Mallma  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
@@ -69,7 +69,7 @@
 **Resultado observado:** Ambas reservas se crean y el cupo queda en -1 o la lista muestra sobreventa.  
 **Resultado esperado:** Control de concurrencia (bloqueo o transacción). Solo una reserva debe confirmarse cuando queda 1 cupo. La otra debe recibir "Cupo no disponible".  
 **Fecha del defecto:** 2025-11-19  
-**Detectado por (Tester):** Alumno C  
+**Detectado por (Tester):** Nicolas Garcia Avalos  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
@@ -87,7 +87,7 @@
 **Resultado observado:** Fecha fin calculada = `2025-03-02` (suma 30 días) en vez de `2025-02-28` (o 29).  
 **Resultado esperado:** Fecha fin debe respetar la duración esperada del plan (si se define "1 mes", agregar 1 mes calendario).  
 **Fecha del defecto:** 2025-11-17  
-**Detectado por (Tester):** Alumno B  
+**Detectado por (Tester):** Kevin Rivera Marcos  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
@@ -106,7 +106,7 @@
 **Resultado observado:** Tras actualizar, el estado vuelve a `activo`.  
 **Resultado esperado:** Estado persistente en almacenamiento; al recargar, debe permanecer `mantenimiento`.  
 **Fecha del defecto:** 2025-11-16  
-**Detectado por (Tester):** Alumno B  
+**Detectado por (Tester):** Jeanpiere Burga Montesinos 
 **Estado del defecto:** Corregido (pendiente verificación)  
 **Corregido por:** Alumno D  
 **Fecha de cierre:** 2025-11-20  
@@ -124,7 +124,7 @@
 **Resultado observado:** Interfaz muestra "Salida registrada", pero el campo `horaSalida` queda vacío en la base (o muestra `00:00`).  
 **Resultado esperado:** Registrar salida debe actualizar `horaSalida` con el timestamp actual.  
 **Fecha del defecto:** 2025-11-19  
-**Detectado por (Tester):** Alumno C  
+**Detectado por (Tester):** Aaron Bejar Mallma  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
@@ -143,7 +143,7 @@
 **Resultado observado:** El reporte muestra entradas duplicadas y algunas filas con `horaSalida` vacía.  
 **Resultado esperado:** Mostrar una fila por registro de asistencia con ambos campos (`horaEntrada`, `horaSalida`) llenos.  
 **Fecha del defecto:** 2025-11-20  
-**Detectado por (Tester):** Alumno C  
+**Detectado por (Tester):** Jeanpiere Burga Montesinos  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
