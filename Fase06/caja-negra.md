@@ -1,5 +1,5 @@
 
-Matriz de trazabilidad de pruebas de caja negra
+#Matriz de trazabilidad de pruebas de caja negra
 
 |     RF | ID CASO | Descripción breve del caso                                    | Entrada(s) (ejemplo)                                                                                 | Resultado Esperado                                                   |       Evidencia (archivo sugerido)       | Resultado |
 | -----: | :------ | :------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- | :--------------------------------------: | :-------: |
