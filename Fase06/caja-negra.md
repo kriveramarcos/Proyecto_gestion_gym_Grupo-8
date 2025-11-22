@@ -1,3 +1,6 @@
+
+Matriz de trazabilidad de pruebas de caja negra
+
 |     RF | ID CASO | Descripción breve del caso                                    | Entrada(s) (ejemplo)                                                                                 | Resultado Esperado                                                   |       Evidencia (archivo sugerido)       | Resultado |
 | -----: | :------ | :------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------- | :--------------------------------------: | :-------: |
 | RF-001 | CU01    | Autenticación administrador                                   | usuario: admin1, contraseña: P@ss123                                                                 | Inicio de sesión exitoso y acceso al dashboard                       |      evidencias/RF-001_login_ok.png      | Pendiente |
