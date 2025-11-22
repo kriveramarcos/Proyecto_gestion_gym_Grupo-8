@@ -1,6 +1,5 @@
 ## Anexo 2 — Informe de errores encontrados
 
-**Instrucciones:** Para cada defecto rellena/adjunta la evidencia (captura o log) en la carpeta evidencias/ y actualiza el campo Resultado si aplica. Los IDs siguen la forma DEF-0X.
 
 ### DEF-01
 
