@@ -1,15 +1,14 @@
-## Anexo 2 — Informe de errores encontrados
+# Anexo 2 — Informe de errores encontrados
 
+---
 
-### DEF-01
-
+## DEF-01
 **Título:** Login acepta contraseña vacía (validación ausente)  
 **Descripción del defecto:** El formulario de autenticación permite enviar con el campo contraseña vacío; el sistema devuelve un error genérico en vez de un mensaje claro de "contraseña requerida".  
 **Pasos para reproducir:**
-1. Ir a la pantalla de login.
-2. Introducir usuario = admin_test y dejar contraseña = vacío.
-3. Pulsar Ingresar.  
-
+1. Ir a la pantalla de login.  
+2. Introducir `usuario = admin_test` y dejar `contraseña = ` vacío.  
+3. Pulsar **Ingresar**.  
 **Resultado observado:** Se muestra un diálogo de error genérico ("Error de autenticación") y no se indica que la contraseña es obligatoria.  
 **Resultado esperado:** Validación del formulario en cliente/servidor mostrando "La contraseña es obligatoria" y no enviar petición al backend.  
 **Fecha del defecto:** 2025-11-18  
@@ -18,17 +17,17 @@
 **Corregido por:** —  
 **Fecha de cierre:** —  
 **Prioridad:** Media  
-**Evidencia:** evidencias/DEF-01_login_contrasena_vacia.png  
+**Evidencia:** `evidencias/DEF-01_login_contrasena_vacia.png`
 
-### DEF-02
+---
 
+## DEF-02
 **Título:** Registro de socio permite DNI duplicado (no valida existencia)  
 **Descripción del defecto:** Al registrar un socio nuevo, el sistema no impide crear un registro con DNI ya existente; genera duplicados en la lista.  
 **Pasos para reproducir:**
-1. Ir a Socios → Nuevo socio.
-2. Introducir DNI = 70123456, nombre y demás campos. Guardar.
+1. Ir a **Socios → Nuevo socio**.  
+2. Introducir `DNI = 70123456`, nombre y demás campos. Guardar.  
 3. Repetir el proceso con el mismo DNI.  
-
 **Resultado observado:** Se crean dos fichas con el mismo DNI sin advertencia.  
 **Resultado esperado:** Mostrar mensaje "DNI ya registrado" y bloquear la creación.  
 **Fecha del defecto:** 2025-11-18  
@@ -37,17 +36,17 @@
 **Corregido por:** —  
 **Fecha de cierre:** —  
 **Prioridad:** Alta  
-**Evidencia:** evidencias/DEF-02_socios_dni_duplicado_1.png, evidencias/DEF-02_socios_dni_duplicado_2.png  
+**Evidencia:** `evidencias/DEF-02_socios_dni_duplicado_1.png`, `evidencias/DEF-02_socios_dni_duplicado_2.png`
 
-### DEF-03
+---
 
+## DEF-03
 **Título:** Anulación de pago fuera de 24h permite eliminar registro (regla no aplicada)  
 **Descripción del defecto:** La regla de negocio indica que pagos no deben poder anularse pasadas 24 horas. En pruebas, la anulación fue permitida aun cuando la fecha del pago era de hace 3 días.  
 **Pasos para reproducir:**
-1. Ir a Pagos y seleccionar un pago con fecha 2025-11-15 (hoy es 2025-11-18).
-2. Pulsar Anular pago.
+1. Ir a **Pagos** y seleccionar un pago con fecha `2025-11-15` (hoy es 2025-11-18).  
+2. Pulsar **Anular pago**.  
 3. Confirmar la anulación.  
-
 **Resultado observado:** El sistema permite anular y en la ficha del socio se actualizan estados como si se hubiera anulado correctamente.  
 **Resultado esperado:** Bloquear anulación con mensaje "No es posible anular pagos mayores a 24h" y dejar histórico marcado como no anulable.  
 **Fecha del defecto:** 2025-11-18  
@@ -56,17 +55,17 @@
 **Corregido por:** —  
 **Fecha de cierre:** —  
 **Prioridad:** Crítico  
-**Evidencia:** evidencias/DEF-03_anular_pago_fuera_24h.png  
+**Evidencia:** `evidencias/DEF-03_anular_pago_fuera_24h.png`
 
-### DEF-04
+---
 
+## DEF-04
 **Título:** Reserva: condición de cupo no respeta concurrencia (doble reserva permitida)  
 **Descripción del defecto:** Cuando dos usuarios intentan reservar simultáneamente el mismo cupo (misma hora), el sistema permitió ambas reservas (sobreventa).  
 **Pasos para reproducir:**
-1. Sesión A: en PC1, intentar reservar clase Lunes 10:00 (cupo restante = 1).
-2. Sesión B: en PC2, intentar reservar la misma clase al mismo tiempo.
+1. Sesión A: en PC1, intentar reservar clase Lunes 10:00 (cupo restante = 1).  
+2. Sesión B: en PC2, intentar reservar la misma clase al mismo tiempo.  
 3. Confirmar ambas en paralelo.  
-
 **Resultado observado:** Ambas reservas se crean y el cupo queda en -1 o la lista muestra sobreventa.  
 **Resultado esperado:** Control de concurrencia (bloqueo o transacción). Solo una reserva debe confirmarse cuando queda 1 cupo. La otra debe recibir "Cupo no disponible".  
 **Fecha del defecto:** 2025-11-19  
@@ -75,17 +74,17 @@
 **Corregido por:** —  
 **Fecha de cierre:** —  
 **Prioridad:** Alta  
-**Evidencia:** evidencias/DEF-04_reserva_concurrencia_pc1.png, evidencias/DEF-04_reserva_concurrencia_pc2.png  
+**Evidencia:** `evidencias/DEF-04_reserva_concurrencia_pc1.png`, `evidencias/DEF-04_reserva_concurrencia_pc2.png`
 
-### DEF-05
+---
 
+## DEF-05
 **Título:** Cálculo de fecha de fin de membresía con meses distintos falla en meses de 30/31 días  
 **Descripción del defecto:** El cálculo de fecha final agrega 30 días fijos para mensual, pero la regla del sistema debería sumar 1 mes en términos de calendario (ej.: 31 de ene → 28/29 feb). Resultado: fechas incorrectas en algunos ejemplos.  
 **Pasos para reproducir:**
-1. Asignar membresía mensual con fecha de inicio 2025-01-31.
+1. Asignar membresía mensual con fecha de inicio `2025-01-31`.  
 2. Ver fecha de fin calculada.  
-
-**Resultado observado:** Fecha fin calculada = 2025-03-02 (suma 30 días) en vez de 2025-02-28 (o 29).  
+**Resultado observado:** Fecha fin calculada = `2025-03-02` (suma 30 días) en vez de `2025-02-28` (o 29).  
 **Resultado esperado:** Fecha fin debe respetar la duración esperada del plan (si se define "1 mes", agregar 1 mes calendario).  
 **Fecha del defecto:** 2025-11-17  
 **Detectado por (Tester):** Alumno B  
@@ -93,58 +92,71 @@
 **Corregido por:** —  
 **Fecha de cierre:** —  
 **Prioridad:** Media  
-**Evidencia:** evidencias/DEF-05_fecha_fin_memb_incorrecta.png  
+**Evidencia:** `evidencias/DEF-05_fecha_fin_memb_incorrecta.png`
 
-### DEF-06
+---
 
+## DEF-06
 **Título:** Inventario: al cambiar estado a "mantenimiento" no se guarda el cambio (error en persistencia)  
 **Descripción del defecto:** En la pantalla de inventario, al cambiar el estado de un equipo a "mantenimiento" y guardar, la interfaz muestra actualización, pero al recargar o buscar por serie el estado vuelve a "activo".  
 **Pasos para reproducir:**
-1. Ir a Inventario, seleccionar equipo SN003.
-2. Cambiar estado a mantenimiento y guardar.
-3. Actualizar página o buscar SN003 de nuevo.  
-
-**Resultado observado:** Tras actualizar, el estado vuelve a activo.  
-**Resultado esperado:** Estado persistente en almacenamiento; al recargar, debe permanecer mantenimiento.  
+1. Ir a **Inventario**, seleccionar equipo `SN003`.  
+2. Cambiar estado a `mantenimiento` y guardar.  
+3. Actualizar página o buscar `SN003` de nuevo.  
+**Resultado observado:** Tras actualizar, el estado vuelve a `activo`.  
+**Resultado esperado:** Estado persistente en almacenamiento; al recargar, debe permanecer `mantenimiento`.  
 **Fecha del defecto:** 2025-11-16  
 **Detectado por (Tester):** Alumno B  
 **Estado del defecto:** Corregido (pendiente verificación)  
 **Corregido por:** Alumno D  
 **Fecha de cierre:** 2025-11-20  
 **Prioridad:** Media  
-**Evidencia:** evidencias/DEF-06_inventario_mantenimiento_before.png, evidencias/DEF-06_inventario_mantenimiento_after.png  
+**Evidencia:** `evidencias/DEF-06_inventario_mantenimiento_before.png`, `evidencias/DEF-06_inventario_mantenimiento_after.png`
 
-### DEF-07
+---
 
+## DEF-07
 **Título:** Asistencia: marcar salida no guarda hora de salida cuando se selecciona registro antiguo  
 **Descripción del defecto:** Al seleccionar un registro antiguo de entrada y pulsar "Registrar salida", la hora de salida no se guarda y el registro queda con salida vacía. Funciona correctamente si se registra salida inmediatamente tras la entrada.  
 **Pasos para reproducir:**
-1. En Asistencias, seleccionar un registro de entrada del día anterior sin salida.
-2. Pulsar Registrar salida.  
-
-**Resultado observado:** Interfaz muestra "Salida registrada", pero el campo horaSalida queda vacío en la base (o muestra 00:00).  
-**Resultado esperado:** Registrar salida debe actualizar horaSalida con el timestamp actual.  
+1. En **Asistencias**, seleccionar un registro de entrada del día anterior sin salida.  
+2. Pulsar **Registrar salida**.  
+**Resultado observado:** Interfaz muestra "Salida registrada", pero el campo `horaSalida` queda vacío en la base (o muestra `00:00`).  
+**Resultado esperado:** Registrar salida debe actualizar `horaSalida` con el timestamp actual.  
 **Fecha del defecto:** 2025-11-19  
 **Detectado por (Tester):** Alumno C  
 **Estado del defecto:** Abierto  
 **Corregido por:** —  
 **Fecha de cierre:** —  
 **Prioridad:** Alta  
-**Evidencia:** evidencias/DEF-07_asistencia_salida_no_guardada.png  
+**Evidencia:** `evidencias/DEF-07_asistencia_salida_no_guardada.png`
 
-### DEF-08
+---
 
+## DEF-08
 **Título:** Reporte diario de asistencia muestra registros incompletos cuando se filtra por DNI  
 **Descripción del defecto:** Al generar el reporte diario y filtrar por DNI, algunos registros del día aparecen repetidos o faltan datos (por ejemplo hora de salida vacía) aun cuando en la vista de asistencias los tiempos están correctos. Posible error en la consulta de filtrado o en el join.  
 **Pasos para reproducir:**
-1. Ir a Reportes → Asistencia diaria.
-2. Seleccionar fecha = hoy y filtro DNI = 70456789.
+1. Ir a **Reportes → Asistencia diaria**.  
+2. Seleccionar fecha = hoy y filtro `DNI = 70456789`.  
 3. Generar reporte.  
-
-**Resultado observado:** El reporte muestra entradas duplicadas y algunas filas con horaSalida vacía.  
-**Resultado esperado:** Mostrar una fila por registro de asistencia con ambos campos (horaEntrada, horaSalida) llenos.  
+**Resultado observado:** El reporte muestra entradas duplicadas y algunas filas con `horaSalida` vacía.  
+**Resultado esperado:** Mostrar una fila por registro de asistencia con ambos campos (`horaEntrada`, `horaSalida`) llenos.  
 **Fecha del defecto:** 2025-11-20  
 **Detectado por (Tester):** Alumno C  
 **Estado del defecto:** Abierto  
-**
+**Corregido por:** —  
+**Fecha de cierre:** —  
+**Prioridad:** Alta  
+**Evidencia:** `evidencias/DEF-08_reporte_asistencia_filtrado_dni.png`
 
+---
+
+## Observaciones generales y recomendaciones
+- Priorizar la **anulación de pagos** (DEF-03) y la **reserva concurrente** (DEF-04) por su impacto en negocio y experiencia de usuario (crítico/alto).  
+- Implementar validaciones del lado cliente **y** servidor (DEF-01 y DEF-02) para evitar datos inválidos y ataques simples.  
+- Revisar la lógica de fechas (usar librería de fechas robusta para sumar meses en lugar de sumar días) (DEF-05).  
+- Para las condiciones concurrentes de reserva, aplicar bloqueo optimista/pesimista en la transacción que decremente cupo.  
+- Mantener un issue tracker (GitHub Issues / Trello) con los IDs anteriores y vincular PRs/commits que solucionen cada defecto.
+
+---
