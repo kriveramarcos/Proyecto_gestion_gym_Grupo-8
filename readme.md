@@ -85,9 +85,7 @@ El cronograma original incluía la entrega del prototipo para el **11/11/2025**;
 - [x] Confirmar cierre de defectos críticos (DEF-03, DEF-04, DEF-07, DEF-08) o registrar pendientes como backlog.  
 - [x] Generar build estable y empaquetado para VPS (JRE 21).  
 - [x] Subir código al repositorio (tag `v1.0-final`) y guardar snapshot .zip.  
-- [x] Entregar informe final y acta de entrega al cliente (firma/aceptación).  
-- [x] Sesión de capacitación al administrador (práctica + manual corto).  
-- [x] Plan de mantenimiento y puntos de mejora (documentado).  
+- [x] Entregar informe final y acta de entrega al cliente (firma/aceptación).    
 - [x] Preparar **presentación final** (diapositivas, demo, guion y pruebas en entorno) — Responsable: Equipo ED (alinear roles). **Fecha de presentación:** 24/11/2025.  
 - [ ] (Opcional) Planificar fase 2: pasarela de pagos, notificaciones, exportar reportes.
 
