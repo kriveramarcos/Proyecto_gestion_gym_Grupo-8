@@ -91,7 +91,7 @@ El cronograma original incluía la entrega del prototipo para el **11/11/2025**;
 ---
 
 ## 8) Conclusión breve
-Aunque se registraron retrasos técnicos durante la fase de integración y pruebas, las acciones de mitigación permitieron completar el prototipo el **17/11/2025**; esto dejó un margen de **7 días** antes de la **presentación final programada para el 24/11/2025**, tiempo suficiente para preparar la demo y la exposición. El prototipo cumple los **requisitos mandatorios** y está listo para ser mostrado; las mejoras y las integraciones externas se planifican para una fase 2.
+Aunque se registraron retrasos técnicos durante la fase de integración y pruebas, las acciones de mitigación permitieron completar el prototipo el **17/11/2025**; esto dejó un margen de **7 días** antes de la **presentación final programada para el 24/11/2025**, tiempo suficiente para preparar la demo y la exposición. El prototipo cumple los **requisitos mandatorios** y está listo para ser mostrado; las mejoras y las integraciones externas se planifican para una fase posterior post entrega/presentación final.
 
 ---
 
