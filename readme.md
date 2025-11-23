@@ -1,7 +1,7 @@
 # Seguimiento — Cronograma y ejecución real (cierre 24-11-2025)
 
 **Proyecto:** Espartanos Fitness — Prototipo sistema de gestión  
-**Periodo de seguimiento:** inicio planificado 18-ago-2025 — cierre real 17-nov-2025  
+**Periodo de seguimiento:** inicio planificado 18-ago-2025 — cierre 24-nov-2025  
 **Responsable del seguimiento:** Equipo de Desarrollo (ED)
 
 ---
