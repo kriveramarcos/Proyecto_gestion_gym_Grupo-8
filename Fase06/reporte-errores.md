@@ -97,24 +97,6 @@
 ---
 
 ## DEF-06
-**Título:** Asistencia: marcar salida no guarda hora de salida cuando se selecciona registro antiguo  
-**Descripción del defecto:** Al seleccionar un registro antiguo de entrada y pulsar "Registrar salida", la hora de salida no se guarda y el registro queda con salida vacía. Funciona correctamente si se registra salida inmediatamente tras la entrada.  
-**Pasos para reproducir:**
-1. En **Asistencias**, seleccionar un registro de entrada del día anterior sin salida.  
-2. Pulsar **Registrar salida**.  
-**Resultado observado:** Interfaz muestra "Salida registrada", pero el campo `horaSalida` queda vacío en la base (o muestra `00:00`).  
-**Resultado esperado:** Registrar salida debe actualizar `horaSalida` con el timestamp actual.  
-**Fecha del defecto:** 2025-10-21  
-**Detectado por (Tester):** Jeanpiere Burga Montesinos  
-**Estado del defecto:** Abierto  
-**Corregido por:** Kevin Rivera Marcos  
-**Fecha de cierre:** 2025-11-02  
-**Prioridad:** High  
-**Evidencia:** `evidencias/DEF-07_asistencia_salida_no_guardada.png`
-
----
-
-## DEF-07
 **Título:** Reporte diario de asistencia muestra registros incompletos cuando se filtra por DNI  
 **Descripción del defecto:** Al generar el reporte diario y filtrar por DNI, algunos registros del día aparecen repetidos o faltan datos (por ejemplo hora de salida vacía) aun cuando en la vista de asistencias los tiempos están correctos. Posible error en la consulta de filtrado o en el join.  
 **Pasos para reproducir:**
