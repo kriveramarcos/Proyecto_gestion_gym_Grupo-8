@@ -2,10 +2,10 @@
 
 ## Cronograma general tabla:
 
-👉 [Tabla](Cronograma_General_Gantt.pdf)
+👉 [Tabla](Cronograma_General_tabla.pdf)
 
 ---
 
 ## Cronograma general gantt:
 
-👉 [Gantt](Cronograma_General_tabla.pdf)
+👉 [Gantt](Cronograma_General_Gantt.pdf)
