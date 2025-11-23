@@ -17,7 +17,7 @@
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-18  
 **Prioridad:** Media  
-**Evidencia:** `evidencias/DEF-01_login_contrasena_vacia.png`
+
 
 ---
 
@@ -36,7 +36,7 @@
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-20  
 **Prioridad:** Alta  
-**Evidencia:** `evidencias/DEF-02_socios_dni_duplicado_1.png`, `evidencias/DEF-02_socios_dni_duplicado_2.png`
+
 
 ---
 
@@ -55,7 +55,7 @@
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-22  
 **Prioridad:** Crítico  
-**Evidencia:** `evidencias/DEF-03_anular_pago_fuera_24h.png`
+
 
 ---
 
@@ -73,7 +73,7 @@
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-25  
 **Prioridad:** Media  
-**Evidencia:** `evidencias/DEF-05_fecha_fin_memb_incorrecta.png`
+
 
 ---
 
@@ -92,7 +92,7 @@
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-30  
 **Prioridad:** Media  
-**Evidencia:** `evidencias/DEF-06_inventario_mantenimiento_before.png`, `evidencias/DEF-06_inventario_mantenimiento_after.png`
+
 
 ---
 
@@ -111,7 +111,7 @@
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-11-08  
 **Prioridad:** Alta  
-**Evidencia:** `evidencias/DEF-08_reporte_asistencia_filtrado_dni.png`
+
 
 ---
 
