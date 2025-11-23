@@ -60,25 +60,6 @@
 ---
 
 ## DEF-04
-**Título:** Reserva: condición de cupo no respeta concurrencia (doble reserva permitida)  
-**Descripción del defecto:** Cuando dos usuarios intentan reservar simultáneamente el mismo cupo (misma hora), el sistema permitió ambas reservas (sobreventa).  
-**Pasos para reproducir:**
-1. Sesión A: en PC1, intentar reservar clase Lunes 10:00 (cupo restante = 1).  
-2. Sesión B: en PC2, intentar reservar la misma clase al mismo timepo.  
-3. Confirmar ambas en paralelo.  
-**Resultado observado:** Ambas reservas se crean y el cupo queda en -1 o la lista muestra sobreventa.  
-**Resultado esperado:** Control de concurrencia (bloqueo o transacción). Solo una reserva debe confirmarse cuando queda 1 cupo. La otra debe recibir "Cupo no disponible".  
-**Fecha del defecto:** 2025-10-16  
-**Detectado por (Tester):** Jeanpiere Burga Montesinos  
-**Estado del defecto:** Abierto  
-**Corregido por:** Aaron Bejar Mallma  
-**Fecha de cierre:** 2025-10-24  
-**Prioridad:** Alta  
-**Evidencia:** `evidencias/DEF-04_reserva_concurrencia_pc1.png`, `evidencias/DEF-04_reserva_concurrencia_pc2.png`
-
----
-
-## DEF-05
 **Título:** Cálculo de fecha de fin de membresía con meses distintos falla en meses de 30/31 días  
 **Descripción del defecto:** El cálculo de fecha final agrega 30 días fijos para mensual, pero la regla del sistema debería sumar 1 mes en términos de calendario (ej.: 31 de ene → 28/29 feb). Resultado: fechas incorrectas en algunos ejemplos.  
 **Pasos para reproducir:**
@@ -87,16 +68,16 @@
 **Resultado observado:** Fecha fin calculada = `2025-03-02` (suma 30 días) en vez de `2025-02-28` (o 29).  
 **Resultado esperado:** Fecha fin debe respetar la duración esperada del plan (si se define "1 mes", agregar 1 mes calendario).  
 **Fecha del defecto:** 2025-10-18  
-**Detectado por (Tester):** Nicolas Garcia Avalos  
+**Detectado por (Tester):** Kevin Rivera Marcos  
 **Estado del defecto:** Abierto  
-**Corregido por:** Kevin Rivera Marcos  
+**Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-25  
 **Prioridad:** Media  
 **Evidencia:** `evidencias/DEF-05_fecha_fin_memb_incorrecta.png`
 
 ---
 
-## DEF-06
+## DEF-05
 **Título:** Inventario: al cambiar estado a "mantenimiento" no se guarda el cambio (error en persistencia)  
 **Descripción del defecto:** En la pantalla de inventario, al cambiar el estado de un equipo a "mantenimiento" y guardar, la interfaz muestra actualización, pero al recargar o buscar por serie el estado vuelve a "activo".  
 **Pasos para reproducir:**
@@ -115,7 +96,7 @@
 
 ---
 
-## DEF-07
+## DEF-06
 **Título:** Asistencia: marcar salida no guarda hora de salida cuando se selecciona registro antiguo  
 **Descripción del defecto:** Al seleccionar un registro antiguo de entrada y pulsar "Registrar salida", la hora de salida no se guarda y el registro queda con salida vacía. Funciona correctamente si se registra salida inmediatamente tras la entrada.  
 **Pasos para reproducir:**
@@ -133,7 +114,7 @@
 
 ---
 
-## DEF-08
+## DEF-07
 **Título:** Reporte diario de asistencia muestra registros incompletos cuando se filtra por DNI  
 **Descripción del defecto:** Al generar el reporte diario y filtrar por DNI, algunos registros del día aparecen repetidos o faltan datos (por ejemplo hora de salida vacía) aun cuando en la vista de asistencias los tiempos están correctos. Posible error en la consulta de filtrado o en el join.  
 **Pasos para reproducir:**
