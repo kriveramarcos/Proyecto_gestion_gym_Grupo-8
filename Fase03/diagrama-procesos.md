@@ -1,6 +1,6 @@
 ## DIAGRAMA DE PROCESOS - SPARTANOS FITNESS
 
-<img width="1616" height="1166" alt="Image" src="https://github.com/user-attachments/assets/3d5f0b28-77b5-419b-b872-4e16902c29aa" />
+<img width="1635" height="1014" alt="Image" src="https://github.com/user-attachments/assets/a74e6cd5-034d-4f72-a1ef-9da42753a227" />
 
 
 Realizado en Bizagi modeler
