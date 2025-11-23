@@ -89,7 +89,6 @@
 **Fecha del defecto:** 2025-10-19  
 **Detectado por (Tester):** Nicolas Garcia Avalos  
 **Estado del defecto:** Corregido
-
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-30  
 **Prioridad:** Media  
