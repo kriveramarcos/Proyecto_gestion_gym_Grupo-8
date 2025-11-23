@@ -88,7 +88,7 @@
 **Resultado esperado:** Estado persistente en almacenamiento; al recargar, debe permanecer `mantenimiento`.  
 **Fecha del defecto:** 2025-10-19  
 **Detectado por (Tester):** Nicolas Garcia Avalos  
-**Estado del defecto:** Corregido
+**Estado del defecto:** Corregido (pendiente verificacion)
 **Corregido por:** Aaron Bejar Mallma  
 **Fecha de cierre:** 2025-10-30  
 **Prioridad:** Media  
