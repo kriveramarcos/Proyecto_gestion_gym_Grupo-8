@@ -78,3 +78,41 @@ public void cargarSocios() {
         e.printStackTrace();
     }
 }
+```
+## 3. Seguridad y Validación de Credenciales
+**Ubicación:** `Controlador/InfoAdmin/DataAdminController.java`
+
+Módulo encargado de la gestión de seguridad del administrador. El siguiente código demuestra las validaciones estrictas antes de permitir un cambio de contraseña sensible.
+
+```java
+private void modificarPass() {
+    try {
+        // ... obtención de datos de la vista ...
+
+        // 1. Validar contraseña actual contra la almacenada
+        if (!inputPassActual.equals(adminLogueado.getPass())) {
+            throw new Exception("❌ La contraseña actual no es correcta.");
+        }
+
+        // 2. Reglas de complejidad y coincidencia
+        if (inputNewPass.length() < 6) {
+            throw new Exception("⚠️ La nueva contraseña debe tener al menos 6 caracteres.");
+        }
+        if (!inputNewPass.equals(inputConfirmarPass)) {
+            throw new Exception("❌ Las contraseñas nuevas no coinciden.");
+        }
+
+        // 3. Confirmación y actualización
+        int confirm = JOptionPane.showConfirmDialog(dataAdminView, "¿Deseas actualizar tu contraseña?");
+        
+        if (confirm == JOptionPane.YES_OPTION) {
+            boolean actualizado = usuarioDAO.modificarUsuarioConDNI(..., inputNewPass, "ADMIN");
+            if (actualizado) {
+                adminLogueado.setPass(inputNewPass); // Actualización en sesión
+                JOptionPane.showMessageDialog(dataAdminView, "✅ Contraseña actualizada.");
+            }
+        }
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(dataAdminView, e.getMessage());
+    }
+}
