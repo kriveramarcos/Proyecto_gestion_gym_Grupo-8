@@ -54,7 +54,7 @@ El cronograma original incluía la entrega del prototipo para el **11/11/2025**;
 
 **Pendientes / Programados**
 - Preparar material de **presentación final** (diapositivas, demo en vivo, guion) — programado para 24/11/2025.  
-- Integración con pasarelas de pago y notificaciones automáticas — planificadas para fase 2 / backlog.  
+- Integración con pasarelas de pago y notificaciones automáticas — planificadas para post-presentación final / backlog.  
 - Auditoría de seguridad (revisión de cifrado campos sensibles) — recomendada post-entrega.
 
 ---
@@ -76,7 +76,6 @@ El cronograma original incluía la entrega del prototipo para el **11/11/2025**;
 3. **Responsables claros para fixes críticos:** la asignación de “dueños” (on-call) acelera la resolución.  
 4. **Preparar la presentación con antelación:** terminar el prototipo con margen permite ensayar la demo y corregir fallas de última hora (esto se logró: 7 días de margen).  
 5. **Documentación y trazabilidad:** vincular cada corrección a un issue/PR facilita auditoría y seguimiento.  
-6. **Planificar fase 2 desde la entrega:** priorizar integraciones (pagos, notificaciones) y pruebas de seguridad.
 
 ---
 
