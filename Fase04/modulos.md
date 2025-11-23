@@ -35,7 +35,7 @@ Módulo encargado del control de activos fijos del gimnasio (Máquinas, Pesas, A
 * **Control de Estado:** Capacidad de catalogar el equipo según su operatividad funcional. Los estados visualizados incluyen:
     * *Activo* (Verde)
     * *En Mantenimiento* (Amarillo)
-    * *Inutilizable/Dañado* (Rojo)
+    * *En desuso* (Rojo)
 
 ## 5. Módulo de Recursos Humanos (Trabajadores)
 **Acceso:** Botón `Trabajadores`
@@ -53,7 +53,4 @@ Módulo de consulta para la supervisión operativa.
 
 ---
 
-## Diagrama de Navegación del Sistema
 
-*(Se recomienda adjuntar aquí la captura compuesta de las pantallas para ilustrar el flujo)*
-![Interfaz de Usuario - Gestor de Gimnasio](ruta/a/tu/imagen_compuesta.jpg)
