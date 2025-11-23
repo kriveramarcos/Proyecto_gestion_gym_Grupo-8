@@ -117,9 +117,7 @@
 
 ## Observaciones generales y recomendaciones
 - Priorizar la **anulación de pagos** (DEF-03) y la **reserva concurrente** (DEF-04) por su impacto en negocio y experiencia de usuario (crítico/alto).  
-- Implementar validaciones del lado cliente **y** servidor (DEF-01 y DEF-02) para evitar datos inválidos y ataques simples.  
 - Revisar la lógica de fechas (usar librería de fechas robusta para sumar meses en lugar de sumar días) (DEF-05).  
 - Para las condiciones concurrentes de reserva, aplicar bloqueo optimista/pesimista en la transacción que decremente cupo.  
-- Mantener un issue tracker (GitHub Issues / Trello) con los IDs anteriores y vincular PRs/commits que solucionen cada defecto.
 
 ---
