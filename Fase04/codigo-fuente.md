@@ -43,4 +43,38 @@ private void agregarInscripcion() {
     }
 }
 ```
-sss
+## 2. Persistencia de Datos (Archivos de Texto)
+**Ubicación:** `Modelo/SocioDAO.java`
+
+El sistema implementa un motor de persistencia propio. En lugar de usar SQL, se serializan los objetos y se almacenan en archivos planos (.txt). Este fragmento muestra cómo se recuperan y "parsean" los datos desde el almacenamiento físico.
+
+```java
+// Método para leer el archivo plano y convertirlo en objetos Java
+public void cargarSocios() {
+    socios.clear();
+    File file = new File("src/main/resources/Files/Socios.txt");
+
+    try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+        String linea;
+        // Lectura línea por línea
+        while ((linea = br.readLine()) != null) {
+            String[] partes = linea.split(";"); // Separador definido
+            
+            // Reconstrucción del objeto Socio
+            if (partes.length == 7) {
+                Date fecha = sdf.parse(partes[5]);
+                Socio s = new Socio(
+                        partes[0], // ID
+                        partes[1], // DNI
+                        partes[2], // Nombres
+                        partes[4], // Correo
+                        fecha,     
+                        partes[6]  // Estado
+                );
+                socios.add(s);
+            }
+        }
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
