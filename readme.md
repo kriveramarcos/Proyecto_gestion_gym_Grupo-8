@@ -11,6 +11,10 @@ El cronograma original incluía la entrega del prototipo para el **11/11/2025**;
 
 ---
 
+<img width="1999" height="1545" alt="Image" src="https://github.com/user-attachments/assets/e64e8c27-0118-4350-bf6d-c29a97ae96cb" />
+
+---
+
 ## 2) Tabla de seguimiento (planificado vs real)
 
 | ID | Tarea (resumen) | Planificado Inicio → Fin | Real (ejecución) Inicio → Fin | Estado final | Observaciones breves |
