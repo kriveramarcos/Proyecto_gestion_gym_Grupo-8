@@ -90,6 +90,16 @@ El cronograma original incluía la entrega del prototipo para el **11/11/2025**;
 
 ---
 
+## Uso de Herramientas y Modularidad
+
+https://github.com/kriveramarcos/Proyecto_gestion_gym_Grupo-8/raw/4221edc98b0d108d465a9b7b8f26e9f57da2795a/docs/guide01/Branches.pdf
+https://github.com/kriveramarcos/Proyecto_gestion_gym_Grupo-8/raw/4221edc98b0d108d465a9b7b8f26e9f57da2795a/docs/guide01/Commits.pdf
+https://github.com/kriveramarcos/Proyecto_gestion_gym_Grupo-8/raw/4221edc98b0d108d465a9b7b8f26e9f57da2795a/docs/guide01/Patron%20MVC.pdf
+
+---
+
 ## 8) Conclusión breve
 Aunque se registraron retrasos técnicos durante la fase de integración y pruebas, las acciones de mitigación permitieron completar el prototipo el **17/11/2025**; esto dejó un margen de **7 días** antes de la **presentación final programada para el 24/11/2025**, tiempo suficiente para preparar la demo y la exposición. El prototipo cumple los **requisitos mandatorios** y está listo para ser mostrado; las mejoras y las integraciones externas se planifican para una fase posterior post entrega/presentación final.
+
+
 
