@@ -10,7 +10,7 @@ Para el desarrollo del prototipo Espartanos Fitness elegimos el modelo de ciclo 
 
 - Nos permite entregar versiones parciales (microentregas) y corregir rápido problemas críticos (por ejemplo: cálculo de vencimiento de membresías, persistencia y seguridad).
 
-Referencias usadas: Fernández & Alfaro (2020); Lemus et al. (2022).
+
 
 ## 2. Cómo aplicamos la espiral en este proyecto (visión práctica)
 
